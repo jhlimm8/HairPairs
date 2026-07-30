@@ -1,0 +1,138 @@
+{
+  "experiment": "attr-suff-v4",
+  "primary": "L0",
+  "encoders": {
+    "dinov2": {
+      "sep_pos_vs_easyneg": {
+        "roc_auc": 0.9141882352941176,
+        "average_precision": 0.8339790618521653,
+        "prevalence": 0.2982456140350877,
+        "n_pos": 425,
+        "n_neg": 1000
+      },
+      "sep_pos_vs_hardneg": {
+        "roc_auc": 0.8324935437589669,
+        "average_precision": 0.8285036922490756,
+        "prevalence": 0.5089820359281437,
+        "n_pos": 425,
+        "n_neg": 410
+      },
+      "crosswearer_vs_hardneg": {
+        "roc_auc": 0.7609756097560976,
+        "average_precision": 0.05051571815905391,
+        "prevalence": 0.012048192771084338,
+        "n_pos": 5,
+        "n_neg": 410
+      },
+      "operating_point": {
+        "far_target": 0.1,
+        "threshold": 0.8488996505737305,
+        "tar": 0.5058823529411764,
+        "hardneg_reject": 0.9
+      },
+      "crosswearer_probe": {
+        "n": 5,
+        "cos": [
+          0.6773,
+          0.7527,
+          0.907,
+          0.6904,
+          0.8656
+        ],
+        "frac_hardneg_below": [
+          0.5829,
+          0.7098,
+          0.9805,
+          0.6024,
+          0.9293
+        ],
+        "k_above_operating_point": 2
+      },
+      "cosine_means": {
+        "same_session_pos": 0.8206170151514166,
+        "collision_hardneg": 0.6319974219653665,
+        "easy_neg": 0.5523886591941118,
+        "crosswearer_pos": 0.7785866022109985,
+        "miss_same": 0.7164785265922546,
+        "miss_diff": 0.6203941899365273
+      }
+    },
+    "clip": {
+      "sep_pos_vs_easyneg": {
+        "roc_auc": 0.974169411764706,
+        "average_precision": 0.9373246832598194,
+        "prevalence": 0.2982456140350877,
+        "n_pos": 425,
+        "n_neg": 1000
+      },
+      "sep_pos_vs_hardneg": {
+        "roc_auc": 0.9186685796269728,
+        "average_precision": 0.9234907401408516,
+        "prevalence": 0.5089820359281437,
+        "n_pos": 425,
+        "n_neg": 410
+      },
+      "crosswearer_vs_hardneg": {
+        "roc_auc": 0.8853658536585366,
+        "average_precision": 0.061841379204533795,
+        "prevalence": 0.012048192771084338,
+        "n_pos": 5,
+        "n_neg": 410
+      },
+      "operating_point": {
+        "far_target": 0.1,
+        "threshold": 0.9442346811294555,
+        "tar": 0.7223529411764706,
+        "hardneg_reject": 0.9
+      },
+      "crosswearer_probe": {
+        "n": 5,
+        "cos": [
+          0.9307,
+          0.9426,
+          0.9551,
+          0.935,
+          0.9505
+        ],
+        "frac_hardneg_below": [
+          0.8,
+          0.8902,
+          0.961,
+          0.8366,
+          0.939
+        ],
+        "k_above_operating_point": 2
+      },
+      "cosine_means": {
+        "same_session_pos": 0.9566605835802415,
+        "collision_hardneg": 0.9053339854973118,
+        "easy_neg": 0.8560564954280854,
+        "crosswearer_pos": 0.9427851438522339,
+        "miss_same": 0.9302570939064025,
+        "miss_diff": 0.9013582658076632
+      }
+    }
+  },
+  "attribute_lookup": {
+    "collision_hardneg": {
+      "n": 410,
+      "pred_same_rate": 1.0
+    },
+    "crosswearer_pos": {
+      "n": 5,
+      "pred_same_rate": 1.0
+    },
+    "easy_neg": {
+      "n": 1000,
+      "pred_same_rate": 0.0
+    },
+    "miss_same": {
+      "n": 5,
+      "pred_same_rate": 0.0
+    },
+    "miss_diff": {
+      "n": 138,
+      "pred_same_rate": 0.0
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Downloaded dataset payloads and aria2 state — never commit these.
+data/
+*.zip
+.aria2_input.txt
+*.aria2
+# Run logs contain live sharing-token URLs — keep them out of git.
+download.log
+*.log

@@ -1,0 +1,24 @@
+# Large dataset payloads — never commit (also see src/data/khairstyle/.gitignore)
+src/data/khairstyle/data/
+
+# Regenerable analysis artefacts: embedding caches (~68 MB of .npz) and the
+# training manifest, both rebuilt by analysis/bundle_gpu.py + run_gpu.sh.
+src/data/khairstyle/analysis/emb_cache/
+src/data/khairstyle/analysis/train_manifest.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+venv/
+
+# Logs and run state
+*.log
+*.aria2
+.aria2_input.txt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

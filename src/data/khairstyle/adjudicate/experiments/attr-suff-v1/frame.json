@@ -1,0 +1,8724 @@
+{
+  "experiment": "attr-suff-v1",
+  "lens": "VISUAL_17",
+  "lens_attrs": [
+    "length",
+    "basestyle_type",
+    "curl",
+    "bang",
+    "side",
+    "partition",
+    "hair_width",
+    "natural_curl",
+    "color",
+    "melanin_color",
+    "black_colorize",
+    "decolorize_history",
+    "water_repellency",
+    "patch_test",
+    "damage",
+    "loss",
+    "exceptional"
+  ],
+  "seed": 20260616,
+  "registered_seed": 20260616,
+  "after_only": true,
+  "min_after_views": 20,
+  "sex_balanced": true,
+  "created_at": "2026-06-24T13:40:06",
+  "n_sources_eligible": 2749,
+  "targets": {
+    "merge_groups": 150,
+    "merge_per_sex": 75,
+    "merge_cross_frac": 0.6,
+    "split_pairs": 250,
+    "split_per_sex": 125,
+    "split_alloc_total": {
+      "curl": 70,
+      "partition": 35,
+      "color": 35,
+      "bang": 30,
+      "damage": 25,
+      "natural_curl": 20,
+      "hair_width": 15,
+      "other": 20
+    },
+    "split_cross_frac": 0.7
+  },
+  "pools": {
+    "merge": {
+      "n_groups_adjudicable": 261,
+      "by_sex": {
+        "F": 161,
+        "M": 97,
+        "mixed": 3
+      }
+    },
+    "split": {
+      "n_pairs_same_sex": 5906,
+      "n_pairs_mixed_excluded": 64,
+      "by_attr_sex": {
+        "bang/F": {
+          "total": 371,
+          "cross": 261
+        },
+        "bang/M": {
+          "total": 168,
+          "cross": 151
+        },
+        "basestyle_type/F": {
+          "total": 5,
+          "cross": 5
+        },
+        "black_colorize/F": {
+          "total": 21,
+          "cross": 17
+        },
+        "black_colorize/M": {
+          "total": 9,
+          "cross": 7
+        },
+        "color/F": {
+          "total": 549,
+          "cross": 398
+        },
+        "color/M": {
+          "total": 297,
+          "cross": 225
+        },
+        "curl/F": {
+          "total": 1357,
+          "cross": 1031
+        },
+        "curl/M": {
+          "total": 508,
+          "cross": 397
+        },
+        "damage/F": {
+          "total": 69,
+          "cross": 48
+        },
+        "damage/M": {
+          "total": 432,
+          "cross": 323
+        },
+        "decolorize_history/F": {
+          "total": 16,
+          "cross": 9
+        },
+        "decolorize_history/M": {
+          "total": 2,
+          "cross": 2
+        },
+        "exceptional/F": {
+          "total": 34,
+          "cross": 25
+        },
+        "exceptional/M": {
+          "total": 8,
+          "cross": 0
+        },
+        "hair_width/F": {
+          "total": 113,
+          "cross": 84
+        },
+        "hair_width/M": {
+          "total": 211,
+          "cross": 161
+        },
+        "length/F": {
+          "total": 201,
+          "cross": 176
+        },
+        "loss/F": {
+          "total": 9,
+          "cross": 7
+        },
+        "loss/M": {
+          "total": 88,
+          "cross": 63
+        },
+        "melanin_color/F": {
+          "total": 2,
+          "cross": 0
+        },
+        "natural_curl/F": {
+          "total": 117,
+          "cross": 82
+        },
+        "natural_curl/M": {
+          "total": 250,
+          "cross": 178
+        },
+        "partition/F": {
+          "total": 575,
+          "cross": 386
+        },
+        "partition/M": {
+          "total": 197,
+          "cross": 148
+        },
+        "patch_test/F": {
+          "total": 29,
+          "cross": 19
+        },
+        "side/F": {
+          "total": 1,
+          "cross": 1
+        },
+        "side/M": {
+          "total": 181,
+          "cross": 152
+        },
+        "water_repellency/F": {
+          "total": 18,
+          "cross": 9
+        },
+        "water_repellency/M": {
+          "total": 68,
+          "cross": 49
+        }
+      }
+    }
+  },
+  "realized": {
+    "merge": {
+      "n": 150,
+      "by_sex": {
+        "F": 75,
+        "M": 75
+      },
+      "cross": 90,
+      "intra": 60,
+      "size_buckets": {
+        "2": 114,
+        ">=5": 8,
+        "3": 21,
+        "4": 7
+      }
+    },
+    "split": {
+      "n": 250,
+      "by_sex": {
+        "F": 125,
+        "M": 125
+      },
+      "cross": 172,
+      "by_attr": {
+        "damage": 24,
+        "hair_width": 14,
+        "natural_curl": 21,
+        "bang": 31,
+        "partition": 35,
+        "curl": 70,
+        "color": 34,
+        "side": 4,
+        "exceptional": 2,
+        "black_colorize": 2,
+        "loss": 3,
+        "water_repellency": 5,
+        "length": 3,
+        "patch_test": 1,
+        "decolorize_history": 1
+      }
+    }
+  },
+  "merge_sample": [
+    {
+      "group_id": "AP084432+JSS288208",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "AP084432",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS288208",
+          "n_views": 117,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "AP294081+DS424288",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "AP294081",
+          "n_views": 120,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "DS424288",
+          "n_views": 115,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "AP304108+JS118706",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "AP304108",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS118706",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DS304311+JSS242964",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DS304311",
+          "n_views": 113,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS242964",
+          "n_views": 20,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DS328396+JS220395+JS296219+JS522653+JS940448",
+      "size": 5,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "에어",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DS328396",
+          "n_views": 117,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JS220395",
+          "n_views": 119,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS296219",
+          "n_views": 118,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS522653",
+          "n_views": 117,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS940448",
+          "n_views": 112,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DS356455+JS132736",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DS356455",
+          "n_views": 78,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS132736",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DS446381+DS448383",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "숏단발"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DS446381",
+          "n_views": 116,
+          "style": "숏단발",
+          "sex": "F"
+        },
+        {
+          "source": "DS448383",
+          "n_views": 118,
+          "style": "보니",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS148738+JS562431",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "가르마"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS148738",
+          "n_views": 120,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS562431",
+          "n_views": 102,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS150174+JSS362389",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "루프"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS150174",
+          "n_views": 119,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JSS362389",
+          "n_views": 113,
+          "style": "루프",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS158745+JS312588",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "루프"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS158745",
+          "n_views": 112,
+          "style": "루프",
+          "sex": "M"
+        },
+        {
+          "source": "JS312588",
+          "n_views": 117,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS216527+JS628113",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "원블럭댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS216527",
+          "n_views": 111,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS628113",
+          "n_views": 119,
+          "style": "원블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS230566+DSS898622+DSS902624+JS450472+JSS206561",
+      "size": 5,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS230566",
+          "n_views": 112,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "DSS898622",
+          "n_views": 116,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "DSS902624",
+          "n_views": 117,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS450472",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS206561",
+          "n_views": 20,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS282513+DSS284514",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS282513",
+          "n_views": 112,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "DSS284514",
+          "n_views": 119,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS298125+JS070725+JS712472+JSS376036+JSS850766",
+      "size": 5,
+      "cross_style": true,
+      "styles": [
+        "바디",
+        "에어",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS298125",
+          "n_views": 71,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JS070725",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS712472",
+          "n_views": 120,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JSS376036",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JSS850766",
+          "n_views": 117,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS362112+DSS370412+DSS372123",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "애즈"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS362112",
+          "n_views": 119,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "DSS370412",
+          "n_views": 116,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "DSS372123",
+          "n_views": 116,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS400846+JS778807",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "원랭스",
+        "플리츠"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS400846",
+          "n_views": 104,
+          "style": "플리츠",
+          "sex": "F"
+        },
+        {
+          "source": "JS778807",
+          "n_views": 120,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS430824+JS566604",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS430824",
+          "n_views": 113,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS566604",
+          "n_views": 104,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS432825+JS402869",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS432825",
+          "n_views": 107,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS402869",
+          "n_views": 111,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS494873+DSS900284",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "플리츠",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS494873",
+          "n_views": 120,
+          "style": "플리츠",
+          "sex": "F"
+        },
+        {
+          "source": "DSS900284",
+          "n_views": 118,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS514575+DSS516576",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "에어",
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS514575",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "DSS516576",
+          "n_views": 120,
+          "style": "히피",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS564447+JS548728",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS564447",
+          "n_views": 115,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS548728",
+          "n_views": 74,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS594457+DSS602791",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "에어",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS594457",
+          "n_views": 101,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "DSS602791",
+          "n_views": 120,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS616985+DSS618988",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS616985",
+          "n_views": 117,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "DSS618988",
+          "n_views": 114,
+          "style": "스핀스왈로",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS668587+JS416662",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS668587",
+          "n_views": 98,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS416662",
+          "n_views": 116,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS700061+JSS918005",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS700061",
+          "n_views": 117,
+          "style": "히피",
+          "sex": "F"
+        },
+        {
+          "source": "JSS918005",
+          "n_views": 118,
+          "style": "히피",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS726706+JS296578+JS452505+JS570062",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "바디",
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS726706",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS296578",
+          "n_views": 117,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JS452505",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS570062",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS736011+DSS742116",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS736011",
+          "n_views": 117,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "DSS742116",
+          "n_views": 116,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS738716+JS774803",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS738716",
+          "n_views": 110,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS774803",
+          "n_views": 117,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS740372+JS750375",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS740372",
+          "n_views": 109,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS750375",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS760132+DSS762134",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "원랭스",
+        "테슬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS760132",
+          "n_views": 112,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "DSS762134",
+          "n_views": 118,
+          "style": "테슬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS812902+DSS814903",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리프"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS812902",
+          "n_views": 116,
+          "style": "리프",
+          "sex": "F"
+        },
+        {
+          "source": "DSS814903",
+          "n_views": 120,
+          "style": "리프",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS832221+JSS022391",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS832221",
+          "n_views": 112,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS022391",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS866253+JS048771",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS866253",
+          "n_views": 118,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS048771",
+          "n_views": 116,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS880436+JS344072",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "바디",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS880436",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS344072",
+          "n_views": 120,
+          "style": "바디",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS884426+DSS886959",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "테슬",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS884426",
+          "n_views": 120,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "DSS886959",
+          "n_views": 120,
+          "style": "테슬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS898461+JS342069",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "DSS898461",
+          "n_views": 109,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS342069",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS932499+JS798866",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "루프"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS932499",
+          "n_views": 117,
+          "style": "루프",
+          "sex": "M"
+        },
+        {
+          "source": "JS798866",
+          "n_views": 113,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS938503+DSS950521+JS006205+JS016377+JS132444+JS452226+JS502295+JS724091+JSS666678",
+      "size": 9,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "댄디",
+        "리젠트",
+        "소프트투블럭댄디",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS938503",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "DSS950521",
+          "n_views": 120,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS006205",
+          "n_views": 102,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS016377",
+          "n_views": 112,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS132444",
+          "n_views": 110,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS452226",
+          "n_views": 111,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS502295",
+          "n_views": 118,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS724091",
+          "n_views": 80,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JSS666678",
+          "n_views": 87,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS942507+JS012792+JS170509+JS210975",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "리젠트",
+        "소프트투블럭댄디",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS942507",
+          "n_views": 117,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS012792",
+          "n_views": 120,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS170509",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS210975",
+          "n_views": 118,
+          "style": "시스루댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "DSS976544+JS352132+JS660063+JS840242",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "쉐도우",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "DSS976544",
+          "n_views": 116,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS352132",
+          "n_views": 119,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "JS660063",
+          "n_views": 105,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS840242",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS002514+JS004544",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS002514",
+          "n_views": 115,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS004544",
+          "n_views": 113,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS004309+JS006498",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "쉼표"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS004309",
+          "n_views": 120,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS006498",
+          "n_views": 118,
+          "style": "쉼표",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS022744+JS102737+JS106825+JS206698+JS214867+JS378206+JS382163+JS450054+JS596242+JS642801+JS662086+JS774433",
+      "size": 12,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "댄디",
+        "소프트투블럭댄디",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS022744",
+          "n_views": 116,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS102737",
+          "n_views": 90,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS106825",
+          "n_views": 111,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS206698",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS214867",
+          "n_views": 114,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS378206",
+          "n_views": 116,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS382163",
+          "n_views": 111,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS450054",
+          "n_views": 116,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS596242",
+          "n_views": 118,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS642801",
+          "n_views": 90,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS662086",
+          "n_views": 97,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS774433",
+          "n_views": 109,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS024137+JS114985+JS214723+JS284841+JS406774+JS482497+JS828764",
+      "size": 7,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "댄디",
+        "소프트투블럭댄디",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS024137",
+          "n_views": 119,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS114985",
+          "n_views": 119,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS214723",
+          "n_views": 93,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS284841",
+          "n_views": 118,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS406774",
+          "n_views": 119,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS482497",
+          "n_views": 109,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS828764",
+          "n_views": 71,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS024479+JS386088",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "바디"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS024479",
+          "n_views": 112,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JS386088",
+          "n_views": 109,
+          "style": "바디",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS024769+JS050856",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS024769",
+          "n_views": 101,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS050856",
+          "n_views": 117,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS028823+JS188467",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS028823",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS188467",
+          "n_views": 115,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS032792+JS034808",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS032792",
+          "n_views": 94,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS034808",
+          "n_views": 105,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS034755+JS664106+JS938087",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "소프트투블럭댄디",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS034755",
+          "n_views": 104,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS664106",
+          "n_views": 94,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS938087",
+          "n_views": 21,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS034902+JS040653",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS034902",
+          "n_views": 120,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "JS040653",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS038843+JS234409",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS038843",
+          "n_views": 119,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS234409",
+          "n_views": 120,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS042847+JS938345",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS042847",
+          "n_views": 120,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS938345",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS044679+JS558102",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS044679",
+          "n_views": 116,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS558102",
+          "n_views": 111,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS054778+JS078609+JS534259",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS054778",
+          "n_views": 84,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS078609",
+          "n_views": 98,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS534259",
+          "n_views": 116,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS078719+JS080838",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보브"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS078719",
+          "n_views": 99,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS080838",
+          "n_views": 105,
+          "style": "보브",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS082839+JS208895",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS082839",
+          "n_views": 115,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS208895",
+          "n_views": 114,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS106633+JS300017",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS106633",
+          "n_views": 110,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS300017",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS108869+JS212833+JS380081",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "쉐도우",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS108869",
+          "n_views": 113,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "JS212833",
+          "n_views": 116,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS380081",
+          "n_views": 118,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS118053+JS120709",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "바디"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS118053",
+          "n_views": 113,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JS120709",
+          "n_views": 112,
+          "style": "바디",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS122709+JS666589",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS122709",
+          "n_views": 104,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS666589",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS124012+JSS502687",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS124012",
+          "n_views": 118,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS502687",
+          "n_views": 103,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS128726+JS286516",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS128726",
+          "n_views": 119,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS286516",
+          "n_views": 101,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS134447+JS454227+JS504311",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS134447",
+          "n_views": 117,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS454227",
+          "n_views": 108,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS504311",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS158681+JS206941+JS254392+JS400656+JS792595",
+      "size": 5,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "원블럭댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS158681",
+          "n_views": 120,
+          "style": "원블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS206941",
+          "n_views": 120,
+          "style": "원블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS254392",
+          "n_views": 120,
+          "style": "원블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS400656",
+          "n_views": 120,
+          "style": "원블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS792595",
+          "n_views": 94,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS166288+JS634839",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "미스티",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS166288",
+          "n_views": 108,
+          "style": "미스티",
+          "sex": "F"
+        },
+        {
+          "source": "JS634839",
+          "n_views": 119,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS180598+JS246911",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS180598",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS246911",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS190867+JS408881+JS812655",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS190867",
+          "n_views": 76,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS408881",
+          "n_views": 119,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS812655",
+          "n_views": 118,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS194703+JSS214668",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "소프트투블럭댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS194703",
+          "n_views": 111,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JSS214668",
+          "n_views": 24,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS202462+JS204053",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "플리츠"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS202462",
+          "n_views": 111,
+          "style": "플리츠",
+          "sex": "F"
+        },
+        {
+          "source": "JS204053",
+          "n_views": 116,
+          "style": "플리츠",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS208568+JS210806",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "가르마"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS208568",
+          "n_views": 115,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS210806",
+          "n_views": 115,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS208708+JS336625+JS632566+JS712899",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS208708",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS336625",
+          "n_views": 101,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS632566",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS712899",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS208999+JS218394+JS520644",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "기타레이어드",
+        "빌드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS208999",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS218394",
+          "n_views": 119,
+          "style": "빌드",
+          "sex": "F"
+        },
+        {
+          "source": "JS520644",
+          "n_views": 120,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS216728+JS306583+JS308584+JS462162+JS664751",
+      "size": 5,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "소프트투블럭댄디",
+        "쉐도우",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS216728",
+          "n_views": 103,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS306583",
+          "n_views": 105,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS308584",
+          "n_views": 116,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "JS462162",
+          "n_views": 113,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS664751",
+          "n_views": 112,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS222397+JS420667+JS540713",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS222397",
+          "n_views": 119,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS420667",
+          "n_views": 117,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JS540713",
+          "n_views": 119,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS224738+JS332769",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS224738",
+          "n_views": 108,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS332769",
+          "n_views": 115,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS232787+JS234813",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "포마드"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS232787",
+          "n_views": 115,
+          "style": "포마드",
+          "sex": "M"
+        },
+        {
+          "source": "JS234813",
+          "n_views": 117,
+          "style": "포마드",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS236836+JS238855",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS236836",
+          "n_views": 117,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS238855",
+          "n_views": 117,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS256199+JS258216+JS278139",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS256199",
+          "n_views": 119,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS258216",
+          "n_views": 94,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS278139",
+          "n_views": 100,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS268958+JS270977+JS654999",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS268958",
+          "n_views": 106,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS270977",
+          "n_views": 114,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS654999",
+          "n_views": 112,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS270574+JS932824",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보브",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS270574",
+          "n_views": 120,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS932824",
+          "n_views": 111,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS292212+JS482851+JS484852",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS292212",
+          "n_views": 120,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS482851",
+          "n_views": 106,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS484852",
+          "n_views": 108,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS308492+JS310494",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "테슬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS308492",
+          "n_views": 120,
+          "style": "테슬",
+          "sex": "F"
+        },
+        {
+          "source": "JS310494",
+          "n_views": 113,
+          "style": "테슬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS310157+JS592294+JS696438",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS310157",
+          "n_views": 120,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS592294",
+          "n_views": 104,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS696438",
+          "n_views": 110,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS326648+JSS022795",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "소프트투블럭댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS326648",
+          "n_views": 120,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JSS022795",
+          "n_views": 80,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS328412+JS490159+JS492177+JS706571",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "보브"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS328412",
+          "n_views": 94,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS490159",
+          "n_views": 119,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS492177",
+          "n_views": 120,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS706571",
+          "n_views": 120,
+          "style": "보브",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS338066+JS648944+JS976025",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS338066",
+          "n_views": 118,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS648944",
+          "n_views": 92,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS976025",
+          "n_views": 114,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS342686+JS344765",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보브"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS342686",
+          "n_views": 101,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS344765",
+          "n_views": 78,
+          "style": "보브",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS372987+JS374031+JS990184",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "애즈"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS372987",
+          "n_views": 111,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "JS374031",
+          "n_views": 102,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "JS990184",
+          "n_views": 118,
+          "style": "애즈",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS380218+JS382243",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보니"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS380218",
+          "n_views": 79,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS382243",
+          "n_views": 76,
+          "style": "보니",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS380765+JS382839",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "숏단발"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS380765",
+          "n_views": 110,
+          "style": "숏단발",
+          "sex": "F"
+        },
+        {
+          "source": "JS382839",
+          "n_views": 106,
+          "style": "보니",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS384184+JS422525+JS526648+JS930971",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "소프트투블럭댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS384184",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS422525",
+          "n_views": 107,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS526648",
+          "n_views": 116,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS930971",
+          "n_views": 119,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS384287+JS386317",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS384287",
+          "n_views": 81,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS386317",
+          "n_views": 71,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS394264+JS396652",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS394264",
+          "n_views": 119,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JS396652",
+          "n_views": 117,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS396863+JS398866",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보브"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS396863",
+          "n_views": 109,
+          "style": "보브",
+          "sex": "F"
+        },
+        {
+          "source": "JS398866",
+          "n_views": 102,
+          "style": "보브",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS424588+JS524873+JSS512878",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "리젠트",
+        "포마드"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS424588",
+          "n_views": 116,
+          "style": "포마드",
+          "sex": "M"
+        },
+        {
+          "source": "JS524873",
+          "n_views": 113,
+          "style": "포마드",
+          "sex": "M"
+        },
+        {
+          "source": "JSS512878",
+          "n_views": 91,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS432193+JS830139",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타남자스타일"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS432193",
+          "n_views": 111,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS830139",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS438941+JS440949",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS438941",
+          "n_views": 119,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS440949",
+          "n_views": 120,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS442215+JS458223",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "루프"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS442215",
+          "n_views": 120,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS458223",
+          "n_views": 119,
+          "style": "루프",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS458135+JS680455",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS458135",
+          "n_views": 106,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS680455",
+          "n_views": 119,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS470684+JS474844",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS470684",
+          "n_views": 103,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS474844",
+          "n_views": 95,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS472241+JS474271",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "포마드"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS472241",
+          "n_views": 108,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS474271",
+          "n_views": 103,
+          "style": "포마드",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS474914+JS860078",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS474914",
+          "n_views": 97,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS860078",
+          "n_views": 102,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS492859+JSS090108+JSS092316",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "에어",
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS492859",
+          "n_views": 115,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JSS090108",
+          "n_views": 103,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JSS092316",
+          "n_views": 104,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS502855+JS780809",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "미스티",
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS502855",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS780809",
+          "n_views": 116,
+          "style": "미스티",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS516245+JS518248",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "가르마"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS516245",
+          "n_views": 95,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS518248",
+          "n_views": 110,
+          "style": "가르마",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS528325+JS530387+JS612089",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS528325",
+          "n_views": 91,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS530387",
+          "n_views": 107,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS612089",
+          "n_views": 116,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS548341+JS550346",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "가르마",
+        "베이비"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS548341",
+          "n_views": 114,
+          "style": "가르마",
+          "sex": "M"
+        },
+        {
+          "source": "JS550346",
+          "n_views": 118,
+          "style": "베이비",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS552881+JSS776646",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타레이어드"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS552881",
+          "n_views": 118,
+          "style": "기타레이어드",
+          "sex": "F"
+        },
+        {
+          "source": "JSS776646",
+          "n_views": 106,
+          "style": "기타레이어드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS554593+JSS122394",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS554593",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JSS122394",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS578014+JS640271",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS578014",
+          "n_views": 119,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS640271",
+          "n_views": 120,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS578625+JS694525",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "에어",
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS578625",
+          "n_views": 118,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JS694525",
+          "n_views": 117,
+          "style": "히피",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS586922+JS710885",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS586922",
+          "n_views": 79,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS710885",
+          "n_views": 119,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS590183+JS834895+JS868201+JS870238",
+      "size": 4,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "소프트투블럭댄디",
+        "쉐도우",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS590183",
+          "n_views": 120,
+          "style": "스핀스왈로",
+          "sex": "M"
+        },
+        {
+          "source": "JS834895",
+          "n_views": 120,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS868201",
+          "n_views": 111,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS870238",
+          "n_views": 113,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS596366+JSS010382",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "보브"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS596366",
+          "n_views": 108,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JSS010382",
+          "n_views": 23,
+          "style": "보브",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS596376+JS598419",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS596376",
+          "n_views": 118,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS598419",
+          "n_views": 118,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS598939+JS600421",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타남자스타일"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS598939",
+          "n_views": 100,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS600421",
+          "n_views": 66,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS602344+JS640382",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "남자일반숏",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS602344",
+          "n_views": 115,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS640382",
+          "n_views": 120,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS610588+JS612961",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "애즈"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS610588",
+          "n_views": 72,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "JS612961",
+          "n_views": 88,
+          "style": "애즈",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS620193+JS974288",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "남자일반숏"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS620193",
+          "n_views": 114,
+          "style": "남자일반숏",
+          "sex": "M"
+        },
+        {
+          "source": "JS974288",
+          "n_views": 79,
+          "style": "남자일반숏",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS626245+JSS286206",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS626245",
+          "n_views": 113,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JSS286206",
+          "n_views": 120,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS626915+JS642448",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS626915",
+          "n_views": 96,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS642448",
+          "n_views": 115,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS658038+JS832156",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타남자스타일"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS658038",
+          "n_views": 99,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS832156",
+          "n_views": 119,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS680959+JS878387+JSS856771",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS680959",
+          "n_views": 101,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS878387",
+          "n_views": 96,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JSS856771",
+          "n_views": 115,
+          "style": "댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS688354+JS690637",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "애즈"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS688354",
+          "n_views": 120,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "JS690637",
+          "n_views": 118,
+          "style": "애즈",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS704486+JS984124",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "스핀스왈로",
+        "시스루댄디"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS704486",
+          "n_views": 120,
+          "style": "시스루댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS984124",
+          "n_views": 118,
+          "style": "스핀스왈로",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS704881+JS706882",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "원랭스"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS704881",
+          "n_views": 120,
+          "style": "원랭스",
+          "sex": "F"
+        },
+        {
+          "source": "JS706882",
+          "n_views": 118,
+          "style": "원랭스",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS710469+JSS096323",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "빌드",
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS710469",
+          "n_views": 120,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JSS096323",
+          "n_views": 98,
+          "style": "빌드",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS736315+JS792365+JS794367",
+      "size": 3,
+      "cross_style": false,
+      "styles": [
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS736315",
+          "n_views": 111,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS792365",
+          "n_views": 110,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS794367",
+          "n_views": 115,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS744171+JS746188",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타남자스타일"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS744171",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS746188",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS752241+JS754259",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS752241",
+          "n_views": 116,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS754259",
+          "n_views": 115,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS776257+JS778346",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보니"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS776257",
+          "n_views": 118,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS778346",
+          "n_views": 115,
+          "style": "보니",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS778201+JS780215",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "기타남자스타일"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS778201",
+          "n_views": 105,
+          "style": "기타남자스타일",
+          "sex": "M"
+        },
+        {
+          "source": "JS780215",
+          "n_views": 104,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS780348+JS782351",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "바디",
+        "플리츠"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS780348",
+          "n_views": 119,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JS782351",
+          "n_views": 108,
+          "style": "플리츠",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS784353+JS786354",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "보니"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS784353",
+          "n_views": 101,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JS786354",
+          "n_views": 109,
+          "style": "보니",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS796442+JS798492",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JS796442",
+          "n_views": 120,
+          "style": "히피",
+          "sex": "F"
+        },
+        {
+          "source": "JS798492",
+          "n_views": 120,
+          "style": "히피",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JS806535+JS810617",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS806535",
+          "n_views": 120,
+          "style": "댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS810617",
+          "n_views": 86,
+          "style": "쉐도우",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS824087+JS826104",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS824087",
+          "n_views": 120,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS826104",
+          "n_views": 120,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS824759+JS976919",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS824759",
+          "n_views": 73,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS976919",
+          "n_views": 90,
+          "style": "리젠트",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS832882+JS872267+JS982098",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "소프트투블럭댄디",
+        "쉐도우"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS832882",
+          "n_views": 119,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        },
+        {
+          "source": "JS872267",
+          "n_views": 105,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JS982098",
+          "n_views": 116,
+          "style": "소프트투블럭댄디",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS856009+JS858036",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "기타남자스타일",
+        "리젠트"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS856009",
+          "n_views": 120,
+          "style": "리젠트",
+          "sex": "M"
+        },
+        {
+          "source": "JS858036",
+          "n_views": 115,
+          "style": "기타남자스타일",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JS906575+JS908579",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "리프"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JS906575",
+          "n_views": 112,
+          "style": "리프",
+          "sex": "M"
+        },
+        {
+          "source": "JS908579",
+          "n_views": 120,
+          "style": "리프",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS006288+JSS010291",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "허쉬"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS006288",
+          "n_views": 118,
+          "style": "허쉬",
+          "sex": "F"
+        },
+        {
+          "source": "JSS010291",
+          "n_views": 117,
+          "style": "허쉬",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS016311+JSS830749",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS016311",
+          "n_views": 114,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JSS830749",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS024796+JSS026797",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "쉐도우",
+        "스핀스왈로"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JSS024796",
+          "n_views": 78,
+          "style": "쉐도우",
+          "sex": "M"
+        },
+        {
+          "source": "JSS026797",
+          "n_views": 78,
+          "style": "스핀스왈로",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS030802+JSS032803",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "애즈"
+      ],
+      "sex": "M",
+      "members": [
+        {
+          "source": "JSS030802",
+          "n_views": 88,
+          "style": "애즈",
+          "sex": "M"
+        },
+        {
+          "source": "JSS032803",
+          "n_views": 99,
+          "style": "애즈",
+          "sex": "M"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS046017+JSS048802",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "플리츠"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS046017",
+          "n_views": 67,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JSS048802",
+          "n_views": 110,
+          "style": "플리츠",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS058025+JSS060027",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS058025",
+          "n_views": 98,
+          "style": "히피",
+          "sex": "F"
+        },
+        {
+          "source": "JSS060027",
+          "n_views": 98,
+          "style": "히피",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS088106+JSS336968+JSS838757",
+      "size": 3,
+      "cross_style": true,
+      "styles": [
+        "바디",
+        "에어",
+        "히피"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS088106",
+          "n_views": 94,
+          "style": "바디",
+          "sex": "F"
+        },
+        {
+          "source": "JSS336968",
+          "n_views": 111,
+          "style": "히피",
+          "sex": "F"
+        },
+        {
+          "source": "JSS838757",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS094322+JSS674132",
+      "size": 2,
+      "cross_style": false,
+      "styles": [
+        "에어"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS094322",
+          "n_views": 85,
+          "style": "에어",
+          "sex": "F"
+        },
+        {
+          "source": "JSS674132",
+          "n_views": 120,
+          "style": "에어",
+          "sex": "F"
+        }
+      ]
+    },
+    {
+      "group_id": "JSS248003+JSS250902",
+      "size": 2,
+      "cross_style": true,
+      "styles": [
+        "보니",
+        "플리츠"
+      ],
+      "sex": "F",
+      "members": [
+        {
+          "source": "JSS248003",
+          "n_views": 27,
+          "style": "보니",
+          "sex": "F"
+        },
+        {
+          "source": "JSS250902",
+          "n_views": 26,
+          "style": "플리츠",
+          "sex": "F"
+        }
+      ]
+    }
+  ],
+  "split_sample": [
+    {
+      "pair_id": "AP060786__AP160929",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP060786",
+        "val": "극손상모",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "AP160929",
+        "val": "손상모",
+        "style": "기타레이어드",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "AP084432__JS302172",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP084432",
+        "val": "보통",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS302172",
+        "val": "굵음",
+        "style": "원랭스",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "AP096557__JS296164",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "AP096557",
+        "val": "버진",
+        "style": "에어",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS296164",
+        "val": "건강모",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "AP112082__JS040653",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "AP112082",
+        "val": "곱슬",
+        "style": "쉐도우",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS040653",
+        "val": "강곱슬",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "AP140609__JSS228095",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP140609",
+        "val": "풀뱅",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS228095",
+        "val": "페이스라인에 통합",
+        "style": "빌드",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "AP142611__DS422287",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP142611",
+        "val": "5:5",
+        "style": "허쉬",
+        "n_views": 117
+      },
+      "b": {
+        "source": "DS422287",
+        "val": "가르마없음",
+        "style": "원랭스",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "AP142611__DSS738111",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP142611",
+        "val": "J",
+        "style": "허쉬",
+        "n_views": 117
+      },
+      "b": {
+        "source": "DSS738111",
+        "val": "SS",
+        "style": "원랭스",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "AP156852__AP158917",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "AP156852",
+        "val": "CS",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "AP158917",
+        "val": "SS",
+        "style": "기타레이어드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "AP308116__JS974599",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "AP308116",
+        "val": "강곱슬",
+        "style": "쉐도우",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS974599",
+        "val": "반곱슬",
+        "style": "댄디",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "AP350464__JS080616",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "AP350464",
+        "val": "풀뱅",
+        "style": "보브",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS080616",
+        "val": "페이스라인에 통합",
+        "style": "보니",
+        "n_views": 106
+      }
+    },
+    {
+      "pair_id": "DS056813__JS662569",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS056813",
+        "val": "손상모",
+        "style": "빌드",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS662569",
+        "val": "극손상모",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DS056813__JSS096323",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DS056813",
+        "val": "S",
+        "style": "빌드",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JSS096323",
+        "val": "J",
+        "style": "빌드",
+        "n_views": 98
+      }
+    },
+    {
+      "pair_id": "DS304311__JS550272",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS304311",
+        "val": "J",
+        "style": "빌드",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS550272",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 102
+      }
+    },
+    {
+      "pair_id": "DS306314__JS328219",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS306314",
+        "val": "반곱슬",
+        "style": "기타레이어드",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS328219",
+        "val": "생머리",
+        "style": "플리츠",
+        "n_views": 61
+      }
+    },
+    {
+      "pair_id": "DS344427__JS616203",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DS344427",
+        "val": "2:8",
+        "style": "기타남자스타일",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS616203",
+        "val": "가르마없음",
+        "style": "리젠트",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DS356455__JS428661",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "DS356455",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 78
+      },
+      "b": {
+        "source": "JS428661",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "DS356455__JS442976",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DS356455",
+        "val": "자연갈색",
+        "style": "쉐도우",
+        "n_views": 78
+      },
+      "b": {
+        "source": "JS442976",
+        "val": "블랙",
+        "style": "애즈",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DS356455__JS606419",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DS356455",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 78
+      },
+      "b": {
+        "source": "JS606419",
+        "val": "X",
+        "style": "시스루댄디",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "DS388209__JS912591",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS388209",
+        "val": "기타",
+        "style": "기타레이어드",
+        "n_views": 100
+      },
+      "b": {
+        "source": "JS912591",
+        "val": "적갈색",
+        "style": "바디",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "DS414264__DS416265",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS414264",
+        "val": "S",
+        "style": "기타레이어드",
+        "n_views": 119
+      },
+      "b": {
+        "source": "DS416265",
+        "val": "SC",
+        "style": "빌드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DS436301__JS070725",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DS436301",
+        "val": "3:7",
+        "style": "에어",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS070725",
+        "val": "5:5",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DS450384__JS296219",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DS450384",
+        "val": "X",
+        "style": "기타레이어드",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS296219",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "DS450384__JSS226878",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DS450384",
+        "val": "손상모",
+        "style": "기타레이어드",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JSS226878",
+        "val": "건강모",
+        "style": "기타레이어드",
+        "n_views": 21
+      }
+    },
+    {
+      "pair_id": "DSS094193__DSS272964",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS094193",
+        "val": "황갈색",
+        "style": "빌드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "DSS272964",
+        "val": "자연갈색",
+        "style": "미스티",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "DSS150174__JS546273",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS150174",
+        "val": "5:5",
+        "style": "남자일반숏",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS546273",
+        "val": "4:6",
+        "style": "가르마",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "DSS164749__DSS170767",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "DSS164749",
+        "val": "4:6",
+        "style": "남자일반숏",
+        "n_views": 100
+      },
+      "b": {
+        "source": "DSS170767",
+        "val": "5:5",
+        "style": "남자일반숏",
+        "n_views": 100
+      }
+    },
+    {
+      "pair_id": "DSS170767__DSS800894",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS170767",
+        "val": "5:5",
+        "style": "남자일반숏",
+        "n_views": 100
+      },
+      "b": {
+        "source": "DSS800894",
+        "val": "6:4",
+        "style": "리프",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS252598__DSS942507",
+      "diff_attr": "side",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS252598",
+        "val": "원블럭",
+        "style": "원블럭댄디",
+        "n_views": 101
+      },
+      "b": {
+        "source": "DSS942507",
+        "val": "투블럭",
+        "style": "리젠트",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "DSS272964__JS220395",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS272964",
+        "val": "S",
+        "style": "미스티",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS220395",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "DSS282513__JSS124395",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DSS282513",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 112
+      },
+      "b": {
+        "source": "JSS124395",
+        "val": "S3",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS298125__JSS090108",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS298125",
+        "val": "5:5",
+        "style": "바디",
+        "n_views": 71
+      },
+      "b": {
+        "source": "JSS090108",
+        "val": "4:6",
+        "style": "에어",
+        "n_views": 103
+      }
+    },
+    {
+      "pair_id": "DSS330168__DSS332168",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS330168",
+        "val": "SS",
+        "style": "바디",
+        "n_views": 101
+      },
+      "b": {
+        "source": "DSS332168",
+        "val": "S3",
+        "style": "히피",
+        "n_views": 101
+      }
+    },
+    {
+      "pair_id": "DSS430824__DSS442914",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS430824",
+        "val": "블랙",
+        "style": "빌드",
+        "n_views": 113
+      },
+      "b": {
+        "source": "DSS442914",
+        "val": "애쉬브라운",
+        "style": "바디",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "DSS432825__JS624227",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS432825",
+        "val": "보통",
+        "style": "보니",
+        "n_views": 107
+      },
+      "b": {
+        "source": "JS624227",
+        "val": "얇음",
+        "style": "보브",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "DSS454949__DSS464958",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS454949",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 120
+      },
+      "b": {
+        "source": "DSS464958",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "DSS474855__DSS696101",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS474855",
+        "val": "5:5",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "DSS696101",
+        "val": "6:4",
+        "style": "원랭스",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS528589__DSS740372",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DSS528589",
+        "val": "황갈색",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "DSS740372",
+        "val": "블랙",
+        "style": "기타레이어드",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "DSS564447__JSS856899",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS564447",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JSS856899",
+        "val": "X",
+        "style": "원랭스",
+        "n_views": 82
+      }
+    },
+    {
+      "pair_id": "DSS580144__JS248962",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DSS580144",
+        "val": "살짝 넘긴스타일",
+        "style": "에어",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS248962",
+        "val": "페이스라인에 통합",
+        "style": "에어",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "DSS664081__JS424684",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS664081",
+        "val": "황갈색",
+        "style": "원랭스",
+        "n_views": 105
+      },
+      "b": {
+        "source": "JS424684",
+        "val": "적갈색",
+        "style": "허쉬",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "DSS668587__DSS898461",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DSS668587",
+        "val": "풀뱅",
+        "style": "기타레이어드",
+        "n_views": 98
+      },
+      "b": {
+        "source": "DSS898461",
+        "val": "해당없음",
+        "style": "기타레이어드",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "DSS668587__JS104632",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS668587",
+        "val": "보통",
+        "style": "기타레이어드",
+        "n_views": 98
+      },
+      "b": {
+        "source": "JS104632",
+        "val": "굵음",
+        "style": "원랭스",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "DSS720701__JS634122",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS720701",
+        "val": "7:3",
+        "style": "포마드",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS634122",
+        "val": "3:7",
+        "style": "애즈",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "DSS732106__DSS898622",
+      "diff_attr": "exceptional",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS732106",
+        "val": "넘긴머리",
+        "style": "빌드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "DSS898622",
+        "val": "해당없음",
+        "style": "기타레이어드",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "DSS740372__JS500547",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS740372",
+        "val": "풀뱅",
+        "style": "기타레이어드",
+        "n_views": 109
+      },
+      "b": {
+        "source": "JS500547",
+        "val": "시스루",
+        "style": "원랭스",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS788169__DSS790017",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "DSS788169",
+        "val": "8:2",
+        "style": "히피",
+        "n_views": 113
+      },
+      "b": {
+        "source": "DSS790017",
+        "val": "2:8",
+        "style": "히피",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "DSS804896__JS134738",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "DSS804896",
+        "val": "S",
+        "style": "쉐도우",
+        "n_views": 112
+      },
+      "b": {
+        "source": "JS134738",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "DSS804896__JS418046",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS804896",
+        "val": "S",
+        "style": "쉐도우",
+        "n_views": 112
+      },
+      "b": {
+        "source": "JS418046",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "DSS842023__JS402869",
+      "diff_attr": "black_colorize",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS842023",
+        "val": "무",
+        "style": "보브",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS402869",
+        "val": "유",
+        "style": "허쉬",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "DSS862694__JS372987",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS862694",
+        "val": "페이스라인에 통합",
+        "style": "가르마",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS372987",
+        "val": "살짝 넘긴스타일",
+        "style": "애즈",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "DSS864941__JS058711",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "DSS864941",
+        "val": "J",
+        "style": "스핀스왈로",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS058711",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS872258__DSS874259",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS872258",
+        "val": "해당없음",
+        "style": "리젠트",
+        "n_views": 120
+      },
+      "b": {
+        "source": "DSS874259",
+        "val": "기타(남자 내림머리)",
+        "style": "기타남자스타일",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "DSS894966__JS326163",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS894966",
+        "val": "생머리",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS326163",
+        "val": "반곱슬",
+        "style": "바디",
+        "n_views": 90
+      }
+    },
+    {
+      "pair_id": "DSS908291__JS272576",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "DSS908291",
+        "val": "블랙",
+        "style": "보니",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS272576",
+        "val": "적갈색",
+        "style": "보브",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS932499__JS054693",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS932499",
+        "val": "4:6",
+        "style": "루프",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS054693",
+        "val": "8:2",
+        "style": "가르마",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "DSS936502__JS326056",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS936502",
+        "val": "황갈색",
+        "style": "기타남자스타일",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS326056",
+        "val": "자연갈색",
+        "style": "리프",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "DSS938503__JS134447",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS938503",
+        "val": "X",
+        "style": "기타남자스타일",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS134447",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "DSS954523__JSS810679",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS954523",
+        "val": "4:6",
+        "style": "가르마",
+        "n_views": 104
+      },
+      "b": {
+        "source": "JSS810679",
+        "val": "5:5",
+        "style": "리프",
+        "n_views": 83
+      }
+    },
+    {
+      "pair_id": "DSS958527__JS626915",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "DSS958527",
+        "val": "보통",
+        "style": "시스루댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS626915",
+        "val": "굵음",
+        "style": "리젠트",
+        "n_views": 96
+      }
+    },
+    {
+      "pair_id": "JS006205__JS812694",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS006205",
+        "val": "굵음",
+        "style": "시스루댄디",
+        "n_views": 102
+      },
+      "b": {
+        "source": "JS812694",
+        "val": "보통",
+        "style": "댄디",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS006205__JS876383",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS006205",
+        "val": "가르마없음",
+        "style": "시스루댄디",
+        "n_views": 102
+      },
+      "b": {
+        "source": "JS876383",
+        "val": "2:8",
+        "style": "시스루댄디",
+        "n_views": 95
+      }
+    },
+    {
+      "pair_id": "JS014356__JS282885",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS014356",
+        "val": "살짝 넘긴스타일",
+        "style": "애즈",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS282885",
+        "val": "페이스라인에 통합",
+        "style": "애즈",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS014356__JS790649",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS014356",
+        "val": "건강모",
+        "style": "애즈",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS790649",
+        "val": "버진",
+        "style": "애즈",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS018424__JS020438",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS018424",
+        "val": "기타(남자 내림머리)",
+        "style": "기타남자스타일",
+        "n_views": 106
+      },
+      "b": {
+        "source": "JS020438",
+        "val": "해당없음",
+        "style": "포마드",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "JS022744__JS380081",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS022744",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS380081",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS022744__JS422525",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS022744",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS422525",
+        "val": "J",
+        "style": "소프트투블럭댄디",
+        "n_views": 107
+      }
+    },
+    {
+      "pair_id": "JS022744__JS684294",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS022744",
+        "val": "반곱슬",
+        "style": "댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS684294",
+        "val": "곱슬",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS024137__JS596242",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS024137",
+        "val": "자연갈색",
+        "style": "기타남자스타일",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS596242",
+        "val": "블랙",
+        "style": "시스루댄디",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS026189__JS332769",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS026189",
+        "val": "S",
+        "style": "리젠트",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS332769",
+        "val": "C",
+        "style": "리젠트",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "JS026681__JS068571",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS026681",
+        "val": "1:9",
+        "style": "보브",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS068571",
+        "val": "7:3",
+        "style": "보브",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS040776__JS428869",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS040776",
+        "val": "7:3",
+        "style": "숏단발",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS428869",
+        "val": "5:5",
+        "style": "플리츠",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS040776__JS468208",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS040776",
+        "val": "7:3",
+        "style": "숏단발",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS468208",
+        "val": "9:1",
+        "style": "보브",
+        "n_views": 106
+      }
+    },
+    {
+      "pair_id": "JS042583__JS364662",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS042583",
+        "val": "생머리",
+        "style": "빌드",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS364662",
+        "val": "반곱슬",
+        "style": "기타레이어드",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS042847__JS520644",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS042847",
+        "val": "C",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS520644",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS044679__JS690997",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS044679",
+        "val": "페이스라인에 통합",
+        "style": "원랭스",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS690997",
+        "val": "해당없음",
+        "style": "기타레이어드",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS044679__JS856189",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS044679",
+        "val": "반곱슬",
+        "style": "원랭스",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS856189",
+        "val": "곱슬",
+        "style": "기타레이어드",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS050856__JS248962",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS050856",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS248962",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS050856__JS310309",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS050856",
+        "val": "반곱슬",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS310309",
+        "val": "생머리",
+        "style": "기타레이어드",
+        "n_views": 77
+      }
+    },
+    {
+      "pair_id": "JS052859__JS248962",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS052859",
+        "val": "S3",
+        "style": "에어",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS248962",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS054778__JSS022391",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS054778",
+        "val": "적갈색",
+        "style": "빌드",
+        "n_views": 84
+      },
+      "b": {
+        "source": "JSS022391",
+        "val": "황갈색",
+        "style": "빌드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS056991__JS058993",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS056991",
+        "val": "J",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS058993",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS058711__JS774184",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS058711",
+        "val": "황갈색",
+        "style": "스핀스왈로",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS774184",
+        "val": "자연갈색",
+        "style": "쉐도우",
+        "n_views": 98
+      }
+    },
+    {
+      "pair_id": "JS060025__JS158681",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS060025",
+        "val": "살짝 넘긴스타일",
+        "style": "댄디",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS158681",
+        "val": "기타(남자 내림머리)",
+        "style": "원블럭댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS070725__JSS096323",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS070725",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS096323",
+        "val": "J",
+        "style": "빌드",
+        "n_views": 98
+      }
+    },
+    {
+      "pair_id": "JS094564__JS976919",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS094564",
+        "val": "C",
+        "style": "리젠트",
+        "n_views": 104
+      },
+      "b": {
+        "source": "JS976919",
+        "val": "X",
+        "style": "리젠트",
+        "n_views": 90
+      }
+    },
+    {
+      "pair_id": "JS096626__JS856009",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS096626",
+        "val": "기타(남자 내림머리)",
+        "style": "원블럭댄디",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS856009",
+        "val": "해당없음",
+        "style": "리젠트",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS102737__JS284841",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS102737",
+        "val": "블랙",
+        "style": "댄디",
+        "n_views": 90
+      },
+      "b": {
+        "source": "JS284841",
+        "val": "자연갈색",
+        "style": "소프트투블럭댄디",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS102737__JS586111",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS102737",
+        "val": "버진",
+        "style": "댄디",
+        "n_views": 90
+      },
+      "b": {
+        "source": "JS586111",
+        "val": "손상모",
+        "style": "시스루댄디",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "JS106633__JS760873",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS106633",
+        "val": "5:5",
+        "style": "에어",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS760873",
+        "val": "가르마없음",
+        "style": "허쉬",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "JS106825__JS108869",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS106825",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS108869",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS106825__JS406774",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS106825",
+        "val": "블랙",
+        "style": "소프트투블럭댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS406774",
+        "val": "자연갈색",
+        "style": "소프트투블럭댄디",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS108869__JS382163",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS108869",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS382163",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS108869__JS660063",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS108869",
+        "val": "버진",
+        "style": "스핀스왈로",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS660063",
+        "val": "손상모",
+        "style": "쉐도우",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS114985__JS596242",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS114985",
+        "val": "자연갈색",
+        "style": "시스루댄디",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS596242",
+        "val": "블랙",
+        "style": "시스루댄디",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS118706__JS562603",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS118706",
+        "val": "버진",
+        "style": "빌드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS562603",
+        "val": "손상모",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS126725__JS636124",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS126725",
+        "val": "S",
+        "style": "에어",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS636124",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS130727__JS332606",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS130727",
+        "val": "SS",
+        "style": "바디",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS332606",
+        "val": "SC",
+        "style": "바디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS132444__JS680959",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS132444",
+        "val": "블랙",
+        "style": "소프트투블럭댄디",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS680959",
+        "val": "자연갈색",
+        "style": "댄디",
+        "n_views": 101
+      }
+    },
+    {
+      "pair_id": "JS132736__JS418046",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS132736",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS418046",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS134447__JS632566",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS134447",
+        "val": "굵음",
+        "style": "쉐도우",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS632566",
+        "val": "보통",
+        "style": "쉐도우",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS134738__JS412953",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS134738",
+        "val": "기타(남자 내림머리)",
+        "style": "쉐도우",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS412953",
+        "val": "풀뱅",
+        "style": "기타남자스타일",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS142744__JS946433",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS142744",
+        "val": "자연갈색",
+        "style": "쉐도우",
+        "n_views": 93
+      },
+      "b": {
+        "source": "JS946433",
+        "val": "블랙",
+        "style": "쉐도우",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS164256__JS292856",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS164256",
+        "val": "C",
+        "style": "보니",
+        "n_views": 107
+      },
+      "b": {
+        "source": "JS292856",
+        "val": "SC",
+        "style": "바디",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS164256__JS322547",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS164256",
+        "val": "반곱슬",
+        "style": "보니",
+        "n_views": 107
+      },
+      "b": {
+        "source": "JS322547",
+        "val": "생머리",
+        "style": "보니",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS170509__JS382163",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS170509",
+        "val": "생머리",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS382163",
+        "val": "반곱슬",
+        "style": "소프트투블럭댄디",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS170509__JS642801",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS170509",
+        "val": "생머리",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS642801",
+        "val": "반곱슬",
+        "style": "댄디",
+        "n_views": 90
+      }
+    },
+    {
+      "pair_id": "JS174667__JS284153",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS174667",
+        "val": "자연갈색",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS284153",
+        "val": "블랙",
+        "style": "에어",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS176378__JS640271",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS176378",
+        "val": "손상모",
+        "style": "리젠트",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS640271",
+        "val": "버진",
+        "style": "리젠트",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS178392__JSS010382",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS178392",
+        "val": "해당없음",
+        "style": "보니",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS010382",
+        "val": "페이스라인에 통합",
+        "style": "보브",
+        "n_views": 23
+      }
+    },
+    {
+      "pair_id": "JS178579__JS482497",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS178579",
+        "val": "얇음",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS482497",
+        "val": "보통",
+        "style": "기타남자스타일",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "JS190867__JS216728",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS190867",
+        "val": "버진",
+        "style": "쉐도우",
+        "n_views": 76
+      },
+      "b": {
+        "source": "JS216728",
+        "val": "건강모",
+        "style": "쉐도우",
+        "n_views": 103
+      }
+    },
+    {
+      "pair_id": "JS194411__JS938087",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS194411",
+        "val": "얇음",
+        "style": "소프트투블럭댄디",
+        "n_views": 101
+      },
+      "b": {
+        "source": "JS938087",
+        "val": "보통",
+        "style": "소프트투블럭댄디",
+        "n_views": 21
+      }
+    },
+    {
+      "pair_id": "JS202462__JS790136",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS202462",
+        "val": "손상모",
+        "style": "플리츠",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS790136",
+        "val": "건강모",
+        "style": "보니",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "JS202557__JS208708",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS202557",
+        "val": "자연갈색",
+        "style": "쉐도우",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS208708",
+        "val": "블랙",
+        "style": "쉐도우",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS204053__JS788358",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS204053",
+        "val": "손상모",
+        "style": "플리츠",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS788358",
+        "val": "건강모",
+        "style": "보니",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS206698__JS214723",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS206698",
+        "val": "블랙",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS214723",
+        "val": "자연갈색",
+        "style": "댄디",
+        "n_views": 93
+      }
+    },
+    {
+      "pair_id": "JS206698__JS482497",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS206698",
+        "val": "블랙",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS482497",
+        "val": "자연갈색",
+        "style": "기타남자스타일",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "JS208708__JS648138",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS208708",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS648138",
+        "val": "C",
+        "style": "시스루댄디",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS208999__JSS606898",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS208999",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS606898",
+        "val": "S",
+        "style": "기타레이어드",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS210084__JS552881",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS210084",
+        "val": "반곱슬",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS552881",
+        "val": "곱슬",
+        "style": "기타레이어드",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS210084__JS710469",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS210084",
+        "val": "X",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS710469",
+        "val": "J",
+        "style": "허쉬",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS212063__JS644449",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS212063",
+        "val": "보통",
+        "style": "쉐도우",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS644449",
+        "val": "굵음",
+        "style": "애즈",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS212833__JS378206",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS212833",
+        "val": "C",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS378206",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS214867__JS422525",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS214867",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS422525",
+        "val": "J",
+        "style": "소프트투블럭댄디",
+        "n_views": 107
+      }
+    },
+    {
+      "pair_id": "JS216883__JS650969",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS216883",
+        "val": "해당없음",
+        "style": "빌드",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS650969",
+        "val": "페이스라인에 통합",
+        "style": "바디",
+        "n_views": 107
+      }
+    },
+    {
+      "pair_id": "JS218394__JSS496862",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS218394",
+        "val": "페이스라인에 통합",
+        "style": "빌드",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JSS496862",
+        "val": "살짝 넘긴스타일",
+        "style": "허쉬",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS224738__JS408881",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS224738",
+        "val": "해당없음",
+        "style": "리젠트",
+        "n_views": 108
+      },
+      "b": {
+        "source": "JS408881",
+        "val": "기타(남자 내림머리)",
+        "style": "쉐도우",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS236836__JS276116",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS236836",
+        "val": "해당없음",
+        "style": "남자일반숏",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS276116",
+        "val": "페이스라인에 통합",
+        "style": "남자일반숏",
+        "n_views": 102
+      }
+    },
+    {
+      "pair_id": "JS236836__JS796624",
+      "diff_attr": "loss",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS236836",
+        "val": "탈모아님",
+        "style": "남자일반숏",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS796624",
+        "val": "탈모",
+        "style": "리젠트",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "JS242905__JS842992",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS242905",
+        "val": "곱슬",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS842992",
+        "val": "생머리",
+        "style": "소프트투블럭댄디",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "JS242905__JS976025",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS242905",
+        "val": "곱슬",
+        "style": "소프트투블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS976025",
+        "val": "반곱슬",
+        "style": "기타남자스타일",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "JS248962__JS254505",
+      "diff_attr": "water_repellency",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS248962",
+        "val": "무",
+        "style": "에어",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS254505",
+        "val": "유",
+        "style": "에어",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS248962__JS920814",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS248962",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS920814",
+        "val": "X",
+        "style": "허쉬",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS258216__JS276116",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS258216",
+        "val": "2:8",
+        "style": "남자일반숏",
+        "n_views": 94
+      },
+      "b": {
+        "source": "JS276116",
+        "val": "가르마없음",
+        "style": "남자일반숏",
+        "n_views": 102
+      }
+    },
+    {
+      "pair_id": "JS264269__JS650139",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS264269",
+        "val": "가르마없음",
+        "style": "쉐도우",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS650139",
+        "val": "3:7",
+        "style": "남자일반숏",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS266288__JS616647",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS266288",
+        "val": "가르마없음",
+        "style": "쉐도우",
+        "n_views": 102
+      },
+      "b": {
+        "source": "JS616647",
+        "val": "6:4",
+        "style": "애즈",
+        "n_views": 101
+      }
+    },
+    {
+      "pair_id": "JS266362__JS314589",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS266362",
+        "val": "X",
+        "style": "원블럭댄디",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS314589",
+        "val": "J",
+        "style": "댄디",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS268573__JS446222",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS268573",
+        "val": "S",
+        "style": "스핀스왈로",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS446222",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS270574__JS500244",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS270574",
+        "val": "7:3",
+        "style": "보브",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS500244",
+        "val": "3:7",
+        "style": "숏단발",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS272053__JS654999",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS272053",
+        "val": "2:8",
+        "style": "남자일반숏",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS654999",
+        "val": "가르마없음",
+        "style": "남자일반숏",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "JS272462__JSS674132",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS272462",
+        "val": "시스루",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JSS674132",
+        "val": "페이스라인에 통합",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS272576__JS716758",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS272576",
+        "val": "해당없음",
+        "style": "보브",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS716758",
+        "val": "살짝 넘긴스타일",
+        "style": "보브",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS286154__JS288156",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS286154",
+        "val": "J",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS288156",
+        "val": "SC",
+        "style": "빌드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS288572__JS482534",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS288572",
+        "val": "손상모",
+        "style": "바디",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS482534",
+        "val": "건강모",
+        "style": "바디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS294859__JS638356",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS294859",
+        "val": "자연갈색",
+        "style": "플리츠",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS638356",
+        "val": "적갈색",
+        "style": "보니",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "JS294859__JS802902",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS294859",
+        "val": "자연갈색",
+        "style": "플리츠",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS802902",
+        "val": "기타",
+        "style": "숏단발",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS296219__JS520644",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS296219",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS520644",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS304176__JSS016311",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS304176",
+        "val": "5:5",
+        "style": "바디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS016311",
+        "val": "4:6",
+        "style": "에어",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "JS312279__JS698442",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS312279",
+        "val": "3:7",
+        "style": "포마드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS698442",
+        "val": "가르마없음",
+        "style": "리젠트",
+        "n_views": 93
+      }
+    },
+    {
+      "pair_id": "JS322595__JS464235",
+      "diff_attr": "water_repellency",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS322595",
+        "val": "무",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS464235",
+        "val": "유",
+        "style": "원랭스",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS326163__JS810962",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS326163",
+        "val": "3:7",
+        "style": "바디",
+        "n_views": 90
+      },
+      "b": {
+        "source": "JS810962",
+        "val": "7:3",
+        "style": "원랭스",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "JS330559__JS776196",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS330559",
+        "val": "살짝 넘긴스타일",
+        "style": "남자일반숏",
+        "n_views": 93
+      },
+      "b": {
+        "source": "JS776196",
+        "val": "기타(남자 내림머리)",
+        "style": "시스루댄디",
+        "n_views": 108
+      }
+    },
+    {
+      "pair_id": "JS342069__JS344072",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS342069",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS344072",
+        "val": "SC",
+        "style": "바디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS358655__JS360657",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS358655",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 100
+      },
+      "b": {
+        "source": "JS360657",
+        "val": "S",
+        "style": "기타레이어드",
+        "n_views": 107
+      }
+    },
+    {
+      "pair_id": "JS368782__JS486362",
+      "diff_attr": "loss",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS368782",
+        "val": "탈모아님",
+        "style": "숏단발",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS486362",
+        "val": "탈모",
+        "style": "보브",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS372987__JSS908997",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS372987",
+        "val": "X",
+        "style": "애즈",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JSS908997",
+        "val": "J",
+        "style": "가르마",
+        "n_views": 88
+      }
+    },
+    {
+      "pair_id": "JS374031__JSS908997",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS374031",
+        "val": "X",
+        "style": "애즈",
+        "n_views": 102
+      },
+      "b": {
+        "source": "JSS908997",
+        "val": "J",
+        "style": "가르마",
+        "n_views": 88
+      }
+    },
+    {
+      "pair_id": "JS374372__JS592294",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS374372",
+        "val": "기타(남자 내림머리)",
+        "style": "기타남자스타일",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS592294",
+        "val": "해당없음",
+        "style": "리젠트",
+        "n_views": 104
+      }
+    },
+    {
+      "pair_id": "JS378174__JS406443",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS378174",
+        "val": "해당없음",
+        "style": "에어",
+        "n_views": 90
+      },
+      "b": {
+        "source": "JS406443",
+        "val": "페이스라인에 통합",
+        "style": "에어",
+        "n_views": 104
+      }
+    },
+    {
+      "pair_id": "JS378206__JS384184",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS378206",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS384184",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS378206__JS430119",
+      "diff_attr": "loss",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS378206",
+        "val": "탈모아님",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS430119",
+        "val": "부분탈모",
+        "style": "시스루댄디",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS378206__JS828764",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS378206",
+        "val": "블랙",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS828764",
+        "val": "자연갈색",
+        "style": "댄디",
+        "n_views": 71
+      }
+    },
+    {
+      "pair_id": "JS380081__JS840242",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS380081",
+        "val": "버진",
+        "style": "쉐도우",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS840242",
+        "val": "손상모",
+        "style": "쉐도우",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS382163__JS586111",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS382163",
+        "val": "버진",
+        "style": "소프트투블럭댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS586111",
+        "val": "손상모",
+        "style": "시스루댄디",
+        "n_views": 115
+      }
+    },
+    {
+      "pair_id": "JS384184__JS662086",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS384184",
+        "val": "J",
+        "style": "쉐도우",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS662086",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 97
+      }
+    },
+    {
+      "pair_id": "JS384184__JS806535",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS384184",
+        "val": "블랙",
+        "style": "쉐도우",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS806535",
+        "val": "자연갈색",
+        "style": "댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS386317__JS680611",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS386317",
+        "val": "X",
+        "style": "원랭스",
+        "n_views": 71
+      },
+      "b": {
+        "source": "JS680611",
+        "val": "C",
+        "style": "바디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS398654__JS526648",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS398654",
+        "val": "S",
+        "style": "스핀스왈로",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS526648",
+        "val": "J",
+        "style": "댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS398654__JS800887",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS398654",
+        "val": "버진",
+        "style": "스핀스왈로",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS800887",
+        "val": "손상모",
+        "style": "쉐도우",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS400425__JS624211",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS400425",
+        "val": "페이스라인에 통합",
+        "style": "빌드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS624211",
+        "val": "풀뱅",
+        "style": "기타레이어드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS400656__JS596242",
+      "diff_attr": "side",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS400656",
+        "val": "원블럭",
+        "style": "원블럭댄디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS596242",
+        "val": "투블럭",
+        "style": "시스루댄디",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS406429__JS560103",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS406429",
+        "val": "생머리",
+        "style": "바디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS560103",
+        "val": "반곱슬",
+        "style": "바디",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "JS406774__JS680455",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS406774",
+        "val": "버진",
+        "style": "소프트투블럭댄디",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS680455",
+        "val": "건강모",
+        "style": "기타남자스타일",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS408449__JSS902993",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS408449",
+        "val": "페이스라인에 통합",
+        "style": "기타레이어드",
+        "n_views": 100
+      },
+      "b": {
+        "source": "JSS902993",
+        "val": "시스루",
+        "style": "기타레이어드",
+        "n_views": 107
+      }
+    },
+    {
+      "pair_id": "JS418046__JS604365",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS418046",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS604365",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS418046__JS774184",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS418046",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS774184",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 98
+      }
+    },
+    {
+      "pair_id": "JS420083__JS798866",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS420083",
+        "val": "자연갈색",
+        "style": "리프",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS798866",
+        "val": "블랙",
+        "style": "가르마",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS420083__JS936453",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS420083",
+        "val": "C",
+        "style": "리프",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS936453",
+        "val": "S",
+        "style": "리프",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS420667__JS488377",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS420667",
+        "val": "6:4",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS488377",
+        "val": "5:5",
+        "style": "기타레이어드",
+        "n_views": 106
+      }
+    },
+    {
+      "pair_id": "JS420667__JS542715",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS420667",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS542715",
+        "val": "SC",
+        "style": "기타레이어드",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS428661__JS568488",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS428661",
+        "val": "가르마없음",
+        "style": "쉐도우",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS568488",
+        "val": "3:7",
+        "style": "쉐도우",
+        "n_views": 97
+      }
+    },
+    {
+      "pair_id": "JS442976__JS800887",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS442976",
+        "val": "J",
+        "style": "애즈",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS800887",
+        "val": "S",
+        "style": "쉐도우",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS448034__JS528255",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS448034",
+        "val": "3:7",
+        "style": "가르마",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS528255",
+        "val": "가르마없음",
+        "style": "댄디",
+        "n_views": 110
+      }
+    },
+    {
+      "pair_id": "JS450054__JS526648",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS450054",
+        "val": "X",
+        "style": "댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS526648",
+        "val": "J",
+        "style": "댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS460149__JS682457",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS460149",
+        "val": "C",
+        "style": "가르마",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS682457",
+        "val": "X",
+        "style": "기타남자스타일",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS462162__JS680455",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS462162",
+        "val": "C",
+        "style": "쉐도우",
+        "n_views": 113
+      },
+      "b": {
+        "source": "JS680455",
+        "val": "X",
+        "style": "기타남자스타일",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS462234__JS834895",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS462234",
+        "val": "자연갈색",
+        "style": "스핀스왈로",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS834895",
+        "val": "블랙",
+        "style": "쉐도우",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS474914__JS476942",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS474914",
+        "val": "가르마없음",
+        "style": "리젠트",
+        "n_views": 97
+      },
+      "b": {
+        "source": "JS476942",
+        "val": "2:8",
+        "style": "포마드",
+        "n_views": 76
+      }
+    },
+    {
+      "pair_id": "JS488538__JS938345",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS488538",
+        "val": "생머리",
+        "style": "빌드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS938345",
+        "val": "반곱슬",
+        "style": "빌드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS494543__JS654546",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS494543",
+        "val": "적갈색",
+        "style": "바디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS654546",
+        "val": "황갈색",
+        "style": "바디",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS502295__JS804561",
+      "diff_attr": "hair_width",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS502295",
+        "val": "굵음",
+        "style": "소프트투블럭댄디",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS804561",
+        "val": "보통",
+        "style": "남자일반숏",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS502295__JS872267",
+      "diff_attr": "water_repellency",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS502295",
+        "val": "무",
+        "style": "소프트투블럭댄디",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS872267",
+        "val": "유",
+        "style": "쉐도우",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS502295__JS982098",
+      "diff_attr": "water_repellency",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS502295",
+        "val": "무",
+        "style": "소프트투블럭댄디",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS982098",
+        "val": "유",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS508517__JS934137",
+      "diff_attr": "side",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS508517",
+        "val": "투블럭",
+        "style": "리프",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS934137",
+        "val": "원블럭",
+        "style": "리프",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS512936__JS828829",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS512936",
+        "val": "살짝 넘긴스타일",
+        "style": "원랭스",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS828829",
+        "val": "페이스라인에 통합",
+        "style": "빌드",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS518943__JS708884",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS518943",
+        "val": "6:4",
+        "style": "에어",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS708884",
+        "val": "7:3",
+        "style": "에어",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS526648__JS806535",
+      "diff_attr": "color",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS526648",
+        "val": "블랙",
+        "style": "댄디",
+        "n_views": 116
+      },
+      "b": {
+        "source": "JS806535",
+        "val": "자연갈색",
+        "style": "댄디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS528255__JS586922",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS528255",
+        "val": "반곱슬",
+        "style": "댄디",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS586922",
+        "val": "곱슬",
+        "style": "쉐도우",
+        "n_views": 79
+      }
+    },
+    {
+      "pair_id": "JS528255__JS862119",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS528255",
+        "val": "기타(남자 내림머리)",
+        "style": "댄디",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS862119",
+        "val": "해당없음",
+        "style": "기타남자스타일",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS532664__JSS202528",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS532664",
+        "val": "보통",
+        "style": "원랭스",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JSS202528",
+        "val": "굵음",
+        "style": "빌드",
+        "n_views": 25
+      }
+    },
+    {
+      "pair_id": "JS536679__JS644133",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS536679",
+        "val": "건강모",
+        "style": "플리츠",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS644133",
+        "val": "손상모",
+        "style": "플리츠",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS544727__JS680959",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS544727",
+        "val": "살짝 넘긴스타일",
+        "style": "댄디",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS680959",
+        "val": "기타(남자 내림머리)",
+        "style": "댄디",
+        "n_views": 101
+      }
+    },
+    {
+      "pair_id": "JS548728__JSS502687",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS548728",
+        "val": "블랙",
+        "style": "허쉬",
+        "n_views": 74
+      },
+      "b": {
+        "source": "JSS502687",
+        "val": "황갈색",
+        "style": "허쉬",
+        "n_views": 103
+      }
+    },
+    {
+      "pair_id": "JS556373__JSS880973",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS556373",
+        "val": "적갈색",
+        "style": "기타레이어드",
+        "n_views": 85
+      },
+      "b": {
+        "source": "JSS880973",
+        "val": "블랙",
+        "style": "원랭스",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS556477__JS862197",
+      "diff_attr": "length",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS556477",
+        "val": "중발",
+        "style": "원랭스",
+        "n_views": 88
+      },
+      "b": {
+        "source": "JS862197",
+        "val": "여숏",
+        "style": "보브",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS572939__JS574968",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS572939",
+        "val": "해당없음",
+        "style": "남자일반숏",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS574968",
+        "val": "기타(남자 내림머리)",
+        "style": "남자일반숏",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS572939__JS804494",
+      "diff_attr": "side",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS572939",
+        "val": "해당없음",
+        "style": "남자일반숏",
+        "n_views": 118
+      },
+      "b": {
+        "source": "JS804494",
+        "val": "투블럭",
+        "style": "남자일반숏",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS586111__JS662086",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS586111",
+        "val": "손상모",
+        "style": "시스루댄디",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS662086",
+        "val": "버진",
+        "style": "소프트투블럭댄디",
+        "n_views": 97
+      }
+    },
+    {
+      "pair_id": "JS586111__JS664106",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS586111",
+        "val": "반곱슬",
+        "style": "시스루댄디",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS664106",
+        "val": "곱슬",
+        "style": "기타남자스타일",
+        "n_views": 94
+      }
+    },
+    {
+      "pair_id": "JS586111__JS812694",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS586111",
+        "val": "손상모",
+        "style": "시스루댄디",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JS812694",
+        "val": "건강모",
+        "style": "댄디",
+        "n_views": 105
+      }
+    },
+    {
+      "pair_id": "JS590183__JS720653",
+      "diff_attr": "black_colorize",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS590183",
+        "val": "무",
+        "style": "스핀스왈로",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS720653",
+        "val": "유",
+        "style": "기타남자스타일",
+        "n_views": 109
+      }
+    },
+    {
+      "pair_id": "JS596366__JS968855",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS596366",
+        "val": "황갈색",
+        "style": "보니",
+        "n_views": 108
+      },
+      "b": {
+        "source": "JS968855",
+        "val": "적갈색",
+        "style": "보니",
+        "n_views": 96
+      }
+    },
+    {
+      "pair_id": "JS596366__JSS232954",
+      "diff_attr": "length",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS596366",
+        "val": "단발",
+        "style": "보니",
+        "n_views": 108
+      },
+      "b": {
+        "source": "JSS232954",
+        "val": "장발",
+        "style": "바디",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS596366__JSS678411",
+      "diff_attr": "length",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS596366",
+        "val": "단발",
+        "style": "보니",
+        "n_views": 108
+      },
+      "b": {
+        "source": "JSS678411",
+        "val": "장발",
+        "style": "기타레이어드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS616647__JS648138",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS616647",
+        "val": "6:4",
+        "style": "애즈",
+        "n_views": 101
+      },
+      "b": {
+        "source": "JS648138",
+        "val": "가르마없음",
+        "style": "시스루댄디",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS636124__JS918813",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS636124",
+        "val": "생머리",
+        "style": "기타레이어드",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS918813",
+        "val": "반곱슬",
+        "style": "허쉬",
+        "n_views": 92
+      }
+    },
+    {
+      "pair_id": "JS638356__JS802902",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS638356",
+        "val": "적갈색",
+        "style": "보니",
+        "n_views": 112
+      },
+      "b": {
+        "source": "JS802902",
+        "val": "기타",
+        "style": "숏단발",
+        "n_views": 118
+      }
+    },
+    {
+      "pair_id": "JS642448__JSS666678",
+      "diff_attr": "natural_curl",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS642448",
+        "val": "생머리",
+        "style": "댄디",
+        "n_views": 115
+      },
+      "b": {
+        "source": "JSS666678",
+        "val": "반곱슬",
+        "style": "댄디",
+        "n_views": 87
+      }
+    },
+    {
+      "pair_id": "JS644449__JS736315",
+      "diff_attr": "water_repellency",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS644449",
+        "val": "무",
+        "style": "애즈",
+        "n_views": 110
+      },
+      "b": {
+        "source": "JS736315",
+        "val": "유",
+        "style": "쉐도우",
+        "n_views": 111
+      }
+    },
+    {
+      "pair_id": "JS648138__JS804561",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS648138",
+        "val": "C",
+        "style": "시스루댄디",
+        "n_views": 119
+      },
+      "b": {
+        "source": "JS804561",
+        "val": "X",
+        "style": "남자일반숏",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS650852__JSS376036",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS650852",
+        "val": "극손상모",
+        "style": "미스티",
+        "n_views": 79
+      },
+      "b": {
+        "source": "JSS376036",
+        "val": "손상모",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS652853__JS662569",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS652853",
+        "val": "손상모",
+        "style": "미스티",
+        "n_views": 97
+      },
+      "b": {
+        "source": "JS662569",
+        "val": "극손상모",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS652853__JSS376036",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS652853",
+        "val": "S",
+        "style": "미스티",
+        "n_views": 97
+      },
+      "b": {
+        "source": "JSS376036",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS664572__JSS804884",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS664572",
+        "val": "보통",
+        "style": "원랭스",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS804884",
+        "val": "굵음",
+        "style": "기타레이어드",
+        "n_views": 113
+      }
+    },
+    {
+      "pair_id": "JS686451__JS688454",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS686451",
+        "val": "X",
+        "style": "쉐도우",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS688454",
+        "val": "C",
+        "style": "스핀스왈로",
+        "n_views": 104
+      }
+    },
+    {
+      "pair_id": "JS694439__JSS908997",
+      "diff_attr": "partition",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS694439",
+        "val": "가르마없음",
+        "style": "기타남자스타일",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS908997",
+        "val": "5:5",
+        "style": "가르마",
+        "n_views": 88
+      }
+    },
+    {
+      "pair_id": "JS700448__JSS802883",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS700448",
+        "val": "S",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS802883",
+        "val": "J",
+        "style": "허쉬",
+        "n_views": 112
+      }
+    },
+    {
+      "pair_id": "JS712472__JSS374034",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS712472",
+        "val": "SS",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS374034",
+        "val": "C",
+        "style": "빌드",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS712472__JSS838757",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS712472",
+        "val": "5:5",
+        "style": "허쉬",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS838757",
+        "val": "6:4",
+        "style": "에어",
+        "n_views": 120
+      }
+    },
+    {
+      "pair_id": "JS716758__JS810962",
+      "diff_attr": "bang",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS716758",
+        "val": "살짝 넘긴스타일",
+        "style": "보브",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS810962",
+        "val": "페이스라인에 통합",
+        "style": "원랭스",
+        "n_views": 114
+      }
+    },
+    {
+      "pair_id": "JS752377__JS780809",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS752377",
+        "val": "S",
+        "style": "에어",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS780809",
+        "val": "SS",
+        "style": "미스티",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS752377__JSS820715",
+      "diff_attr": "natural_curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS752377",
+        "val": "생머리",
+        "style": "에어",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS820715",
+        "val": "반곱슬",
+        "style": "빌드",
+        "n_views": 101
+      }
+    },
+    {
+      "pair_id": "JS772418__JSS682611",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS772418",
+        "val": "투톤",
+        "style": "바디",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JSS682611",
+        "val": "황갈색",
+        "style": "빌드",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS828007__JS830013",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS828007",
+        "val": "X",
+        "style": "여자일반숏",
+        "n_views": 99
+      },
+      "b": {
+        "source": "JS830013",
+        "val": "J",
+        "style": "보브",
+        "n_views": 91
+      }
+    },
+    {
+      "pair_id": "JS830139__JS832156",
+      "diff_attr": "exceptional",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS830139",
+        "val": "군인머리(반삭)",
+        "style": "기타남자스타일",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JS832156",
+        "val": "해당없음",
+        "style": "기타남자스타일",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS868201__JS982098",
+      "diff_attr": "curl",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS868201",
+        "val": "C",
+        "style": "기타남자스타일",
+        "n_views": 111
+      },
+      "b": {
+        "source": "JS982098",
+        "val": "X",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JS916595__JS918597",
+      "diff_attr": "bang",
+      "sex": "M",
+      "cross_style": false,
+      "a": {
+        "source": "JS916595",
+        "val": "시스루",
+        "style": "남자일반숏",
+        "n_views": 100
+      },
+      "b": {
+        "source": "JS918597",
+        "val": "해당없음",
+        "style": "남자일반숏",
+        "n_views": 104
+      }
+    },
+    {
+      "pair_id": "JS920814__JSS206561",
+      "diff_attr": "color",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JS920814",
+        "val": "적갈색",
+        "style": "허쉬",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JSS206561",
+        "val": "블랙",
+        "style": "기타레이어드",
+        "n_views": 20
+      }
+    },
+    {
+      "pair_id": "JS944833__JS946836",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS944833",
+        "val": "S",
+        "style": "원랭스",
+        "n_views": 92
+      },
+      "b": {
+        "source": "JS946836",
+        "val": "J",
+        "style": "원랭스",
+        "n_views": 92
+      }
+    },
+    {
+      "pair_id": "JS956413__JSS682611",
+      "diff_attr": "patch_test",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS956413",
+        "val": "유",
+        "style": "빌드",
+        "n_views": 99
+      },
+      "b": {
+        "source": "JSS682611",
+        "val": "무",
+        "style": "빌드",
+        "n_views": 119
+      }
+    },
+    {
+      "pair_id": "JS966862__JS968911",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JS966862",
+        "val": "X",
+        "style": "여자일반숏",
+        "n_views": 117
+      },
+      "b": {
+        "source": "JS968911",
+        "val": "C",
+        "style": "여자일반숏",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JS976025__JS982098",
+      "diff_attr": "damage",
+      "sex": "M",
+      "cross_style": true,
+      "a": {
+        "source": "JS976025",
+        "val": "버진",
+        "style": "기타남자스타일",
+        "n_views": 114
+      },
+      "b": {
+        "source": "JS982098",
+        "val": "건강모",
+        "style": "소프트투블럭댄디",
+        "n_views": 116
+      }
+    },
+    {
+      "pair_id": "JSS004286__JSS012308",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS004286",
+        "val": "J",
+        "style": "기타레이어드",
+        "n_views": 105
+      },
+      "b": {
+        "source": "JSS012308",
+        "val": "S3",
+        "style": "히피",
+        "n_views": 87
+      }
+    },
+    {
+      "pair_id": "JSS096323__JSS502687",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS096323",
+        "val": "5:5",
+        "style": "빌드",
+        "n_views": 98
+      },
+      "b": {
+        "source": "JSS502687",
+        "val": "6:4",
+        "style": "허쉬",
+        "n_views": 103
+      }
+    },
+    {
+      "pair_id": "JSS142411__JSS152419",
+      "diff_attr": "damage",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS142411",
+        "val": "손상모",
+        "style": "미스티",
+        "n_views": 99
+      },
+      "b": {
+        "source": "JSS152419",
+        "val": "건강모",
+        "style": "기타레이어드",
+        "n_views": 104
+      }
+    },
+    {
+      "pair_id": "JSS152419__JSS282948",
+      "diff_attr": "partition",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS152419",
+        "val": "5:5",
+        "style": "기타레이어드",
+        "n_views": 104
+      },
+      "b": {
+        "source": "JSS282948",
+        "val": "가르마없음",
+        "style": "원랭스",
+        "n_views": 22
+      }
+    },
+    {
+      "pair_id": "JSS232954__JSS850766",
+      "diff_attr": "curl",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS232954",
+        "val": "C",
+        "style": "바디",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS850766",
+        "val": "SS",
+        "style": "에어",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JSS376036__JSS804675",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JSS376036",
+        "val": "보통",
+        "style": "에어",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS804675",
+        "val": "얇음",
+        "style": "에어",
+        "n_views": 96
+      }
+    },
+    {
+      "pair_id": "JSS804675__JSS850766",
+      "diff_attr": "hair_width",
+      "sex": "F",
+      "cross_style": false,
+      "a": {
+        "source": "JSS804675",
+        "val": "얇음",
+        "style": "에어",
+        "n_views": 96
+      },
+      "b": {
+        "source": "JSS850766",
+        "val": "보통",
+        "style": "에어",
+        "n_views": 117
+      }
+    },
+    {
+      "pair_id": "JSS898613__JSS980274",
+      "diff_attr": "decolorize_history",
+      "sex": "F",
+      "cross_style": true,
+      "a": {
+        "source": "JSS898613",
+        "val": "2",
+        "style": "빌드",
+        "n_views": 120
+      },
+      "b": {
+        "source": "JSS980274",
+        "val": "1",
+        "style": "바디",
+        "n_views": 107
+      }
+    }
+  ],
+  "label": "After-only + sex-balanced (v1)",
+  "id_gap_filter": false
+}

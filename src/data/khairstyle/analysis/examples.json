@@ -1,0 +1,654 @@
+{
+  "all21_cross_group": {
+    "n": 7,
+    "styles": [
+      "One-Length",
+      "Other Layered"
+    ],
+    "members": [
+      {
+        "source": "CP582088",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP590097",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP594102",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP602111",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP606119",
+        "style": "Other Layered",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP608123",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP610125",
+        "style": "One-Length",
+        "age": "40",
+        "views": 40
+      }
+    ],
+    "shared_attrs": {
+      "Length": "Long",
+      "Length class": "Long",
+      "Curl pattern": "None (straight)",
+      "Bangs / fringe": "N/A",
+      "Sides": "N/A",
+      "Parting": "5:5",
+      "Strand width": "Thick",
+      "Natural curl": "Wavy",
+      "Color": "Red-brown",
+      "Melanin": "Red (pheomelanin)",
+      "Black-dyed": "No",
+      "Bleach history": "0",
+      "Water-repellency": "No",
+      "Patch test": "No",
+      "Damage": "Severe",
+      "Hair loss": "No loss",
+      "Exceptional": "묶음머리",
+      "Sex": "Female",
+      "Age": "40",
+      "Client rating": "∅",
+      "Stylist rating": "∅"
+    }
+  },
+  "all21_intra_group": {
+    "n": 5,
+    "styles": [
+      "Hush Cut"
+    ],
+    "members": [
+      {
+        "source": "CP806074",
+        "style": "Hush Cut",
+        "age": "20",
+        "views": 40
+      },
+      {
+        "source": "CP812076",
+        "style": "Hush Cut",
+        "age": "20",
+        "views": 40
+      },
+      {
+        "source": "CP818083",
+        "style": "Hush Cut",
+        "age": "20",
+        "views": 40
+      },
+      {
+        "source": "CP824086",
+        "style": "Hush Cut",
+        "age": "20",
+        "views": 40
+      },
+      {
+        "source": "CP830089",
+        "style": "Hush Cut",
+        "age": "20",
+        "views": 40
+      }
+    ],
+    "shared_attrs": {
+      "Length": "Long",
+      "Length class": "Long",
+      "Curl pattern": "None (straight)",
+      "Bangs / fringe": "Slightly swept",
+      "Sides": "N/A",
+      "Parting": "No part",
+      "Strand width": "Medium",
+      "Natural curl": "Straight",
+      "Color": "Black",
+      "Melanin": "Red (pheomelanin)",
+      "Black-dyed": "No",
+      "Bleach history": "0",
+      "Water-repellency": "No",
+      "Patch test": "No",
+      "Damage": "Virgin",
+      "Hair loss": "No loss",
+      "Exceptional": "묶음머리",
+      "Sex": "Female",
+      "Age": "20",
+      "Client rating": "∅",
+      "Stylist rating": "∅"
+    }
+  },
+  "shape8_group": {
+    "n": 63,
+    "styles": [
+      "Dandy Cut",
+      "Men's Regular Short",
+      "Other Men's Styles",
+      "See-Through Dandy",
+      "Soft Two-Block Dandy"
+    ],
+    "members": [
+      {
+        "source": "AP292069",
+        "style": "Dandy Cut",
+        "age": "27",
+        "views": 180
+      },
+      {
+        "source": "CP028671",
+        "style": "Soft Two-Block Dandy",
+        "age": "22",
+        "views": 40
+      },
+      {
+        "source": "CP032627",
+        "style": "Dandy Cut",
+        "age": "19",
+        "views": 40
+      },
+      {
+        "source": "CP072715",
+        "style": "Soft Two-Block Dandy",
+        "age": "33",
+        "views": 40
+      },
+      {
+        "source": "CP082659",
+        "style": "Dandy Cut",
+        "age": "51",
+        "views": 40
+      },
+      {
+        "source": "CP154318",
+        "style": "See-Through Dandy",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP174338",
+        "style": "Men's Regular Short",
+        "age": "40",
+        "views": 40
+      },
+      {
+        "source": "CP498234",
+        "style": "Soft Two-Block Dandy",
+        "age": "48",
+        "views": 40
+      },
+      {
+        "source": "CP506194",
+        "style": "See-Through Dandy",
+        "age": "30",
+        "views": 40
+      },
+      {
+        "source": "CP540744",
+        "style": "See-Through Dandy",
+        "age": "27",
+        "views": 40
+      },
+      {
+        "source": "CP578083",
+        "style": "Dandy Cut",
+        "age": "36",
+        "views": 40
+      },
+      {
+        "source": "CP580086",
+        "style": "See-Through Dandy",
+        "age": "22",
+        "views": 40
+      },
+      {
+        "source": "CP838053",
+        "style": "Dandy Cut",
+        "age": "42",
+        "views": 40
+      },
+      {
+        "source": "CP838135",
+        "style": "See-Through Dandy",
+        "age": "22",
+        "views": 40
+      },
+      {
+        "source": "CP840057",
+        "style": "Dandy Cut",
+        "age": "37",
+        "views": 40
+      },
+      {
+        "source": "CP846086",
+        "style": "See-Through Dandy",
+        "age": "36",
+        "views": 39
+      },
+      {
+        "source": "CP946009",
+        "style": "Dandy Cut",
+        "age": "25",
+        "views": 21
+      },
+      {
+        "source": "DS354454",
+        "style": "Soft Two-Block Dandy",
+        "age": "28",
+        "views": 119
+      },
+      {
+        "source": "DSS846928",
+        "style": "Soft Two-Block Dandy",
+        "age": "32",
+        "views": 120
+      },
+      {
+        "source": "JS004238",
+        "style": "Soft Two-Block Dandy",
+        "age": "42",
+        "views": 172
+      },
+      {
+        "source": "JS022744",
+        "style": "Dandy Cut",
+        "age": "20",
+        "views": 175
+      },
+      {
+        "source": "JS024137",
+        "style": "Other Men's Styles",
+        "age": "37",
+        "views": 179
+      },
+      {
+        "source": "JS072704",
+        "style": "Dandy Cut",
+        "age": "31",
+        "views": 169
+      },
+      {
+        "source": "JS102737",
+        "style": "Dandy Cut",
+        "age": "20",
+        "views": 148
+      },
+      {
+        "source": "JS106825",
+        "style": "Soft Two-Block Dandy",
+        "age": "20",
+        "views": 169
+      },
+      {
+        "source": "JS114985",
+        "style": "See-Through Dandy",
+        "age": "22",
+        "views": 177
+      },
+      {
+        "source": "JS206698",
+        "style": "Soft Two-Block Dandy",
+        "age": "20",
+        "views": 180
+      },
+      {
+        "source": "JS214723",
+        "style": "Dandy Cut",
+        "age": "35",
+        "views": 150
+      },
+      {
+        "source": "JS214867",
+        "style": "Soft Two-Block Dandy",
+        "age": "21",
+        "views": 173
+      },
+      {
+        "source": "JS222736",
+        "style": "See-Through Dandy",
+        "age": "37",
+        "views": 155
+      },
+      {
+        "source": "JS280784",
+        "style": "Soft Two-Block Dandy",
+        "age": "22",
+        "views": 178
+      },
+      {
+        "source": "JS284841",
+        "style": "Soft Two-Block Dandy",
+        "age": "21",
+        "views": 174
+      },
+      {
+        "source": "JS378206",
+        "style": "Soft Two-Block Dandy",
+        "age": "24",
+        "views": 166
+      },
+      {
+        "source": "JS382163",
+        "style": "Soft Two-Block Dandy",
+        "age": "25",
+        "views": 169
+      },
+      {
+        "source": "JS406774",
+        "style": "Soft Two-Block Dandy",
+        "age": "26",
+        "views": 179
+      },
+      {
+        "source": "JS418046",
+        "style": "Dandy Cut",
+        "age": "23",
+        "views": 168
+      },
+      {
+        "source": "JS428097",
+        "style": "Men's Regular Short",
+        "age": "40",
+        "views": 167
+      },
+      {
+        "source": "JS430119",
+        "style": "See-Through Dandy",
+        "age": "40",
+        "views": 155
+      },
+      {
+        "source": "JS450054",
+        "style": "Dandy Cut",
+        "age": "20",
+        "views": 173
+      },
+      {
+        "source": "JS458135",
+        "style": "Men's Regular Short",
+        "age": "50",
+        "views": 166
+      },
+      {
+        "source": "JS470684",
+        "style": "Men's Regular Short",
+        "age": "38",
+        "views": 141
+      },
+      {
+        "source": "JS474844",
+        "style": "Men's Regular Short",
+        "age": "38",
+        "views": 150
+      },
+      {
+        "source": "JS482497",
+        "style": "Other Men's Styles",
+        "age": "38",
+        "views": 154
+      },
+      {
+        "source": "JS528255",
+        "style": "Dandy Cut",
+        "age": "26",
+        "views": 167
+      },
+      {
+        "source": "JS586111",
+        "style": "See-Through Dandy",
+        "age": "29",
+        "views": 172
+      },
+      {
+        "source": "JS596242",
+        "style": "See-Through Dandy",
+        "age": "27",
+        "views": 178
+      },
+      {
+        "source": "JS606419",
+        "style": "See-Through Dandy",
+        "age": "28",
+        "views": 172
+      },
+      {
+        "source": "JS606461",
+        "style": "Dandy Cut",
+        "age": "34",
+        "views": 176
+      },
+      {
+        "source": "JS608727",
+        "style": "Dandy Cut",
+        "age": "48",
+        "views": 179
+      },
+      {
+        "source": "JS620193",
+        "style": "Men's Regular Short",
+        "age": "49",
+        "views": 170
+      },
+      {
+        "source": "JS638727",
+        "style": "Men's Regular Short",
+        "age": "53",
+        "views": 180
+      },
+      {
+        "source": "JS642801",
+        "style": "Dandy Cut",
+        "age": "33",
+        "views": 136
+      },
+      {
+        "source": "JS662086",
+        "style": "Soft Two-Block Dandy",
+        "age": "28",
+        "views": 147
+      },
+      {
+        "source": "JS680455",
+        "style": "Other Men's Styles",
+        "age": "43",
+        "views": 179
+      },
+      {
+        "source": "JS692384",
+        "style": "Soft Two-Block Dandy",
+        "age": "21",
+        "views": 174
+      },
+      {
+        "source": "JS774433",
+        "style": "Men's Regular Short",
+        "age": "40",
+        "views": 167
+      },
+      {
+        "source": "JS776196",
+        "style": "See-Through Dandy",
+        "age": "25",
+        "views": 163
+      },
+      {
+        "source": "JS804561",
+        "style": "Men's Regular Short",
+        "age": "36",
+        "views": 175
+      },
+      {
+        "source": "JS812694",
+        "style": "Dandy Cut",
+        "age": "45",
+        "views": 151
+      },
+      {
+        "source": "JS828764",
+        "style": "Dandy Cut",
+        "age": "27",
+        "views": 110
+      },
+      {
+        "source": "JS898715",
+        "style": "Men's Regular Short",
+        "age": "55",
+        "views": 156
+      },
+      {
+        "source": "JS972284",
+        "style": "Dandy Cut",
+        "age": "50",
+        "views": 173
+      },
+      {
+        "source": "JS974288",
+        "style": "Men's Regular Short",
+        "age": "65",
+        "views": 118
+      }
+    ],
+    "shared_attrs": {
+      "Length": "Men's",
+      "Length class": "Short",
+      "Curl pattern": "None (straight)",
+      "Bangs / fringe": "Other (men's down)",
+      "Sides": "Two-block",
+      "Parting": "No part",
+      "Strand width": "Medium",
+      "Natural curl": "Wavy"
+    },
+    "style_counts": {
+      "Dandy Cut": 20,
+      "Soft Two-Block Dandy": 16,
+      "See-Through Dandy": 13,
+      "Men's Regular Short": 11,
+      "Other Men's Styles": 3
+    }
+  },
+  "h1_curl_all21": {
+    "diff_attr": "Curl pattern",
+    "cross_style": true,
+    "a": {
+      "source": "AP100115",
+      "style": "Build Perm",
+      "val": "S-curl",
+      "views": 178
+    },
+    "b": {
+      "source": "AP102675",
+      "style": "Air Perm",
+      "val": "Triple S-curl",
+      "views": 180
+    },
+    "identical_on": {
+      "Length": "Medium",
+      "Length class": "Long",
+      "Bangs / fringe": "Blended to face line",
+      "Sides": "N/A",
+      "Parting": "5:5",
+      "Strand width": "Medium",
+      "Natural curl": "Wavy",
+      "Color": "Yellow-brown",
+      "Melanin": "Red (pheomelanin)",
+      "Black-dyed": "No",
+      "Bleach history": "0",
+      "Water-repellency": "No",
+      "Patch test": "No",
+      "Damage": "Damaged",
+      "Hair loss": "No loss",
+      "Exceptional": "해당없음",
+      "Sex": "Female",
+      "Age": "25",
+      "Client rating": "5",
+      "Stylist rating": "5"
+    }
+  },
+  "h1_age_all21": {
+    "diff_attr": "Age",
+    "cross_style": true,
+    "a": {
+      "source": "AP062542",
+      "style": "Build Perm",
+      "val": "37",
+      "views": 180
+    },
+    "b": {
+      "source": "AP106814",
+      "style": "Body Perm",
+      "val": "20",
+      "views": 180
+    },
+    "identical_on": {
+      "Length": "Medium",
+      "Length class": "Long",
+      "Curl pattern": "S-curl",
+      "Bangs / fringe": "Blended to face line",
+      "Sides": "N/A",
+      "Parting": "6:4",
+      "Strand width": "Medium",
+      "Natural curl": "Wavy",
+      "Color": "Natural brown",
+      "Melanin": "Red (pheomelanin)",
+      "Black-dyed": "No",
+      "Bleach history": "0",
+      "Water-repellency": "No",
+      "Patch test": "No",
+      "Damage": "Damaged",
+      "Hair loss": "No loss",
+      "Exceptional": "해당없음",
+      "Sex": "Female",
+      "Client rating": "4",
+      "Stylist rating": "4"
+    }
+  },
+  "h1_curl_visual": {
+    "diff_attr": "Curl pattern",
+    "cross_style": true,
+    "a": {
+      "source": "AP062542",
+      "style": "Build Perm",
+      "val": "S-curl",
+      "views": 180
+    },
+    "b": {
+      "source": "CP040618",
+      "style": "One-Length",
+      "val": "None (straight)",
+      "views": 40
+    },
+    "identical_on": {
+      "Length": "Medium",
+      "Length class": "Long",
+      "Bangs / fringe": "Blended to face line",
+      "Sides": "N/A",
+      "Parting": "6:4",
+      "Strand width": "Medium",
+      "Natural curl": "Wavy",
+      "Color": "Natural brown",
+      "Melanin": "Red (pheomelanin)",
+      "Black-dyed": "No",
+      "Bleach history": "0",
+      "Water-repellency": "No",
+      "Patch test": "No",
+      "Damage": "Damaged",
+      "Hair loss": "No loss",
+      "Exceptional": "해당없음"
+    }
+  }
+}

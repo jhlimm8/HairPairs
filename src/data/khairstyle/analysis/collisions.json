@@ -1,0 +1,884 @@
+{
+  "n_sources": 4347,
+  "full": {
+    "name": "ALL features (21)",
+    "subset": [
+      "length",
+      "basestyle_type",
+      "curl",
+      "bang",
+      "side",
+      "partition",
+      "hair_width",
+      "natural_curl",
+      "color",
+      "melanin_color",
+      "black_colorize",
+      "decolorize_history",
+      "water_repellency",
+      "patch_test",
+      "damage",
+      "loss",
+      "exceptional",
+      "sex",
+      "age",
+      "user_satisfied",
+      "designer_satisfied"
+    ],
+    "n_in_collision": 620,
+    "frac_unique": 0.8573729008511617,
+    "n_groups": 275,
+    "size_hist": {
+      "2": 229,
+      "3": 31,
+      "4": 10,
+      "5": 3,
+      "7": 2
+    },
+    "intra_groups": 187,
+    "cross_groups": 88
+  },
+  "examples": {
+    "cross_style": [
+      {
+        "n_sources": 7,
+        "styles": [
+          "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+          "\uc6d0\ub7ad\uc2a4"
+        ],
+        "sources": [
+          {
+            "source": "CP582088",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP590097",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP594102",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP602111",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP606119",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP608123",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP610125",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "40",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud574\ub2f9\uc5c6\uc74c",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "5:5",
+          "hair_width": "\uad75\uc74c",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\uc801\uac08\uc0c9",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uadf9\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "40",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 7,
+        "styles": [
+          "\uc6d0\ub7ad\uc2a4",
+          "\ud5c8\uc26c"
+        ],
+        "sources": [
+          {
+            "source": "CP854102",
+            "n_views": 26,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP860105",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP866108",
+            "n_views": 25,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP872111",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP878115",
+            "n_views": 28,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP884118",
+            "n_views": 25,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP890122",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "20",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\uc0b4\uc9dd \ub118\uae34\uc2a4\ud0c0\uc77c",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "6:4",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\ubc84\uc9c4",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "20",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 5,
+        "styles": [
+          "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+          "\ud788\ud53c"
+        ],
+        "sources": [
+          {
+            "source": "CP240088",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "25",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP242209",
+            "n_views": 40,
+            "basestyle": "\ud788\ud53c",
+            "age": "25",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP244094",
+            "n_views": 40,
+            "basestyle": "\ud788\ud53c",
+            "age": "25",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP248621",
+            "n_views": 40,
+            "basestyle": "\ud788\ud53c",
+            "age": "25",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP256111",
+            "n_views": 40,
+            "basestyle": "\ud788\ud53c",
+            "age": "25",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "S3",
+          "bang": "\ud398\uc774\uc2a4\ub77c\uc778\uc5d0 \ud1b5\ud569",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "4:6",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\uc790\uc5f0\uac08\uc0c9",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uadf9\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "25",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 5,
+        "styles": [
+          "\uc6d0\ub7ad\uc2a4",
+          "\ud5c8\uc26c"
+        ],
+        "sources": [
+          {
+            "source": "CP964344",
+            "n_views": 31,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "21",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP968348",
+            "n_views": 28,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "21",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP970351",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "21",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP972354",
+            "n_views": 29,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "21",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP976836",
+            "n_views": 23,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "21",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud398\uc774\uc2a4\ub77c\uc778\uc5d0 \ud1b5\ud569",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "5:5",
+          "hair_width": "\uad75\uc74c",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uadf9\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "21",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+          "\uc6d0\ub7ad\uc2a4"
+        ],
+        "sources": [
+          {
+            "source": "CP218053",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP224063",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP226066",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP236081",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "28",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud398\uc774\uc2a4\ub77c\uc778\uc5d0 \ud1b5\ud569",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "5:5",
+          "hair_width": "\uad75\uc74c",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "28",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\uc6d0\ub7ad\uc2a4",
+          "\ud5c8\uc26c"
+        ],
+        "sources": [
+          {
+            "source": "CP456795",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "36",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP464803",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "36",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP488816",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "36",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP494819",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "36",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc911\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\uc2dc\uc2a4\ub8e8",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "\uac00\ub974\ub9c8\uc5c6\uc74c",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\uc801\uac08\uc0c9",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "36",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      }
+    ],
+    "intra_style": [
+      {
+        "n_sources": 5,
+        "styles": [
+          "\ud5c8\uc26c"
+        ],
+        "sources": [
+          {
+            "source": "CP806074",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP812076",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP818083",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP824086",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP830089",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "20",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\uc0b4\uc9dd \ub118\uae34\uc2a4\ud0c0\uc77c",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "\uac00\ub974\ub9c8\uc5c6\uc74c",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\uc0dd\uba38\ub9ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\ubc84\uc9c4",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "20",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\ud5c8\uc26c"
+        ],
+        "sources": [
+          {
+            "source": "CP010557",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP022572",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP024575",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "28",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP026579",
+            "n_views": 40,
+            "basestyle": "\ud5c8\uc26c",
+            "age": "28",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud398\uc774\uc2a4\ub77c\uc778\uc5d0 \ud1b5\ud569",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "5:5",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\uc790\uc5f0\uac08\uc0c9",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uac74\uac15\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "28",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc"
+        ],
+        "sources": [
+          {
+            "source": "CP030274",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "31",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP048301",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "31",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP056309",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "31",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP062318",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "31",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud574\ub2f9\uc5c6\uc74c",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "6:4",
+          "hair_width": "\uad75\uc74c",
+          "natural_curl": "\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\uc720",
+          "patch_test": "\ubb34",
+          "damage": "\uadf9\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "31",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\ud50c\ub9ac\uce20"
+        ],
+        "sources": [
+          {
+            "source": "CP036507",
+            "n_views": 40,
+            "basestyle": "\ud50c\ub9ac\uce20",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP084545",
+            "n_views": 40,
+            "basestyle": "\ud50c\ub9ac\uce20",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP096552",
+            "n_views": 40,
+            "basestyle": "\ud50c\ub9ac\uce20",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP152926",
+            "n_views": 40,
+            "basestyle": "\ud50c\ub9ac\uce20",
+            "age": "20",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc911\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud398\uc774\uc2a4\ub77c\uc778\uc5d0 \ud1b5\ud569",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "4:6",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\ubc84\uc9c4",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "20",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc"
+        ],
+        "sources": [
+          {
+            "source": "CP042951",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP078541",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP146922",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "20",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP158929",
+            "n_views": 40,
+            "basestyle": "\uae30\ud0c0\ub808\uc774\uc5b4\ub4dc",
+            "age": "20",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc7a5\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\uc2dc\uc2a4\ub8e8",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "\uac00\ub974\ub9c8\uc5c6\uc74c",
+          "hair_width": "\uc587\uc74c",
+          "natural_curl": "\uc0dd\uba38\ub9ac",
+          "color": "\ud22c\ud1a4",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "2",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uadf9\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ubb36\uc74c\uba38\ub9ac",
+          "sex": "\uc5ec",
+          "age": "20",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      },
+      {
+        "n_sources": 4,
+        "styles": [
+          "\uc6d0\ub7ad\uc2a4"
+        ],
+        "sources": [
+          {
+            "source": "CP066119",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "19",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP068712",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "19",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP070127",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "19",
+            "sex": "\uc5ec"
+          },
+          {
+            "source": "CP072128",
+            "n_views": 40,
+            "basestyle": "\uc6d0\ub7ad\uc2a4",
+            "age": "19",
+            "sex": "\uc5ec"
+          }
+        ],
+        "shared_attrs": {
+          "length": "\uc911\ubc1c",
+          "basestyle_type": "\uc7a5",
+          "curl": "X",
+          "bang": "\ud480\ubc45",
+          "side": "\ud574\ub2f9\uc5c6\uc74c",
+          "partition": "\uac00\ub974\ub9c8\uc5c6\uc74c",
+          "hair_width": "\ubcf4\ud1b5",
+          "natural_curl": "\ubc18\uacf1\uc2ac",
+          "color": "\ube14\ub799",
+          "melanin_color": "\uc801\uba5c\ub77c\ub2cc",
+          "black_colorize": "\ubb34",
+          "decolorize_history": "0",
+          "water_repellency": "\ubb34",
+          "patch_test": "\ubb34",
+          "damage": "\uc190\uc0c1\ubaa8",
+          "loss": "\ud0c8\ubaa8\uc544\ub2d8",
+          "exceptional": "\ud574\ub2f9\uc5c6\uc74c",
+          "sex": "\uc5ec",
+          "age": "19",
+          "user_satisfied": "\u2205",
+          "designer_satisfied": "\u2205"
+        }
+      }
+    ]
+  },
+  "visual": {
+    "name": "VISUAL only (17, no person/rating)",
+    "subset": [
+      "length",
+      "basestyle_type",
+      "curl",
+      "bang",
+      "side",
+      "partition",
+      "hair_width",
+      "natural_curl",
+      "color",
+      "melanin_color",
+      "black_colorize",
+      "decolorize_history",
+      "water_repellency",
+      "patch_test",
+      "damage",
+      "loss",
+      "exceptional"
+    ],
+    "n_in_collision": 1339,
+    "frac_unique": 0.6919714745801703,
+    "n_groups": 521,
+    "size_hist": {
+      "2": 372,
+      "3": 84,
+      "9": 1,
+      "7": 7,
+      "5": 17,
+      "17": 1,
+      "4": 30,
+      "13": 1,
+      "6": 7,
+      "8": 1
+    },
+    "intra_groups": 243,
+    "cross_groups": 278
+  },
+  "shape_biggest_group": {
+    "n_sources": 63,
+    "shared": {
+      "length": "\ub0a8\uc790",
+      "basestyle_type": "\ub2e8",
+      "curl": "X",
+      "bang": "\uae30\ud0c0(\ub0a8\uc790 \ub0b4\ub9bc\uba38\ub9ac)",
+      "side": "\ud22c\ube14\ub7ed",
+      "partition": "\uac00\ub974\ub9c8\uc5c6\uc74c",
+      "hair_width": "\ubcf4\ud1b5",
+      "natural_curl": "\ubc18\uacf1\uc2ac"
+    },
+    "styles": {
+      "\ub304\ub514": 20,
+      "\uc18c\ud504\ud2b8\ud22c\ube14\ub7ed\ub304\ub514": 16,
+      "\uc2dc\uc2a4\ub8e8\ub304\ub514": 13,
+      "\ub0a8\uc790\uc77c\ubc18\uc20f": 11,
+      "\uae30\ud0c0\ub0a8\uc790\uc2a4\ud0c0\uc77c": 3
+    }
+  },
+  "cross_style_groups": 88
+}

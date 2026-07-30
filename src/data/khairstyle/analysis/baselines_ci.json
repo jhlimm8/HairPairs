@@ -1,0 +1,224 @@
+{
+  "experiment": "attr-suff-v4",
+  "eval": "label-based cross-session",
+  "n_boot": 2000,
+  "far_target": 0.1,
+  "resampling": "stratified (positives, negatives, attribute-identical positives resampled independently to original sizes)",
+  "encoders": {
+    "dinov2": {
+      "roc_auc": {
+        "estimate": 0.7151459854014599,
+        "ci95": [
+          0.5728102189781021,
+          0.8386861313868613
+        ],
+        "n_boot": 2000
+      },
+      "average_precision": {
+        "estimate": 0.06192202258300016,
+        "ci95": [
+          0.026909410962387408,
+          0.19806723457425307
+        ],
+        "n_boot": 2000
+      },
+      "tar": {
+        "estimate": 0.3,
+        "ci95": [
+          0.0,
+          0.6
+        ],
+        "n_boot": 2000
+      },
+      "attr_identical_k": {
+        "estimate": 2,
+        "ci95": [
+          0,
+          4
+        ],
+        "n_boot": 2000
+      },
+      "n_pos": 10,
+      "n_neg": 548
+    },
+    "dinov2_large": {
+      "roc_auc": {
+        "estimate": 0.6713503649635036,
+        "ci95": [
+          0.48813868613138683,
+          0.8253649635036496
+        ],
+        "n_boot": 2000
+      },
+      "average_precision": {
+        "estimate": 0.08454282539766346,
+        "ci95": [
+          0.023853195251394503,
+          0.30576309564931553
+        ],
+        "n_boot": 2000
+      },
+      "tar": {
+        "estimate": 0.3,
+        "ci95": [
+          0.0,
+          0.6
+        ],
+        "n_boot": 2000
+      },
+      "attr_identical_k": {
+        "estimate": 2,
+        "ci95": [
+          0,
+          4
+        ],
+        "n_boot": 2000
+      },
+      "n_pos": 10,
+      "n_neg": 548
+    },
+    "clip": {
+      "roc_auc": {
+        "estimate": 0.8036496350364963,
+        "ci95": [
+          0.6773722627737226,
+          0.906021897810219
+        ],
+        "n_boot": 2000
+      },
+      "average_precision": {
+        "estimate": 0.15566490219234297,
+        "ci95": [
+          0.03965936579641692,
+          0.37240740682225215
+        ],
+        "n_boot": 2000
+      },
+      "tar": {
+        "estimate": 0.3,
+        "ci95": [
+          0.1,
+          0.7
+        ],
+        "n_boot": 2000
+      },
+      "attr_identical_k": {
+        "estimate": 2,
+        "ci95": [
+          0,
+          5
+        ],
+        "n_boot": 2000
+      },
+      "n_pos": 10,
+      "n_neg": 548
+    },
+    "siglip": {
+      "roc_auc": {
+        "estimate": 0.7332116788321168,
+        "ci95": [
+          0.5965328467153285,
+          0.8447080291970803
+        ],
+        "n_boot": 2000
+      },
+      "average_precision": {
+        "estimate": 0.07385014035106316,
+        "ci95": [
+          0.028218942714621553,
+          0.2688880862687472
+        ],
+        "n_boot": 2000
+      },
+      "tar": {
+        "estimate": 0.2,
+        "ci95": [
+          0.0,
+          0.5
+        ],
+        "n_boot": 2000
+      },
+      "attr_identical_k": {
+        "estimate": 1,
+        "ci95": [
+          0,
+          4
+        ],
+        "n_boot": 2000
+      },
+      "n_pos": 10,
+      "n_neg": 548
+    },
+    "dinov2_trained": {
+      "roc_auc": {
+        "estimate": 0.6746350364963504,
+        "ci95": [
+          0.48996350364963503,
+          0.8319343065693431
+        ],
+        "n_boot": 2000
+      },
+      "average_precision": {
+        "estimate": 0.05431858842261956,
+        "ci95": [
+          0.024411684745520107,
+          0.1726090907066135
+        ],
+        "n_boot": 2000
+      },
+      "tar": {
+        "estimate": 0.2,
+        "ci95": [
+          0.0,
+          0.5
+        ],
+        "n_boot": 2000
+      },
+      "attr_identical_k": {
+        "estimate": 1,
+        "ci95": [
+          0,
+          4
+        ],
+        "n_boot": 2000
+      },
+      "n_pos": 10,
+      "n_neg": 548
+    }
+  },
+  "paired_auc_contrasts": {
+    "scale (ViT-L vs ViT-B)": {
+      "estimate": -0.04379562043795626,
+      "ci95": [
+        -0.09233576642335767,
+        -0.0029197080291971655
+      ],
+      "p_two_sided": 0.028,
+      "n_boot": 2000,
+      "a": "dinov2_large",
+      "b": "dinov2"
+    },
+    "schema supervision (head vs frozen ViT-B)": {
+      "estimate": -0.040510948905109534,
+      "ci95": [
+        -0.1501824817518248,
+        0.08248175182481743
+      ],
+      "p_two_sided": 0.496,
+      "n_boot": 2000,
+      "a": "dinov2_trained",
+      "b": "dinov2"
+    },
+    "in-domain head vs zero-shot CLIP": {
+      "estimate": -0.12901459854014596,
+      "ci95": [
+        -0.26514598540145984,
+        0.00821167883211682
+      ],
+      "p_two_sided": 0.062,
+      "n_boot": 2000,
+      "a": "dinov2_trained",
+      "b": "clip"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HairPairs · adjudication</title>
+<link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+<header>
+  <div class="brand">HairPairs<span>adjudication</span></div>
+  <div class="expsel">
+    <label>experiment</label>
+    <select id="exp"></select>
+  </div>
+  <div class="tabs">
+    <button data-kind="split" class="tab active">Pairs (split)</button>
+    <button data-kind="merge" class="tab">Groups (merge)</button>
+  </div>
+  <div class="rater">
+    <label>rater</label>
+    <select id="rater"></select>
+    <input id="rater-other" type="text" placeholder="id" class="hidden" />
+  </div>
+</header>
+
+<main>
+  <aside id="sidebar">
+    <div class="filter">
+      <button id="f-todo" class="chip active">to do</button>
+      <button id="f-done" class="chip">done</button>
+      <button id="f-all" class="chip">all</button>
+    </div>
+    <div class="scope-filter hidden" id="scope-row">
+      <button id="f-shared" class="chip scope-chip">shared only</button>
+    </div>
+    <ul id="tasklist"></ul>
+  </aside>
+
+  <section id="stage">
+    <div id="empty" class="empty">Pick a task from the left, or set your rater id.</div>
+    <div id="work" class="hidden">
+      <div id="work-head">
+        <span id="work-title"></span>
+        <span id="work-status"></span>
+      </div>
+      <div id="cards"></div>
+      <div id="controls"></div>
+      <div id="help" class="help"></div>
+      <div id="comments" class="comments">
+        <div class="comment-edit">
+          <label for="comment-box">your note</label>
+          <textarea id="comment-box" rows="2" placeholder="optional note for this item — visible to other raters"></textarea>
+          <button id="comment-save" class="action">Save note</button>
+          <span id="comment-status" class="comment-status"></span>
+        </div>
+        <ul id="comment-list" class="comment-list"></ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

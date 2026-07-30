@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hairtax · K-Hairstyle Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="mark">✦</span>
+      <span class="wordmark">Hairtax</span>
+      <span class="sub">K-Hairstyle Atlas</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="filter-block">
+        <div class="filter-title">Split</div>
+        <div class="segmented" id="split-seg">
+          <button data-split="" class="active">All</button>
+          <button data-split="mq-train">Train</button>
+          <button data-split="mq-val">Val</button>
+        </div>
+        <div class="split-note" id="split-note"></div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-title">Sex</div>
+        <div class="segmented" id="sex-seg">
+          <button data-sex="" class="active">All</button>
+          <button data-sex="남">Male</button>
+          <button data-sex="여">Female</button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-title">Labeling</div>
+        <div class="segmented" id="anno-seg">
+          <button data-anno="" class="active">All</button>
+          <button data-anno="0">Unlabeled</button>
+          <button data-anno="1">Labeled</button>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-title">Session</div>
+        <input id="search" class="search" placeholder="source id, e.g. CP032677" />
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-title">Categories <span class="muted" id="cat-count"></span></div>
+        <div class="cat-list" id="cat-list"></div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-title">
+          Attributes
+          <span class="muted" id="attr-active"></span>
+          <button class="link-btn" id="attr-clear" hidden>clear</button>
+        </div>
+        <div class="attr-filters" id="attr-filters"></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="gallery-head">
+        <div class="result-meta" id="result-meta">Loading…</div>
+        <div class="pager" id="pager"></div>
+      </div>
+      <div class="active-filters" id="active-filters"></div>
+      <div class="grid" id="grid"></div>
+      <div class="pager bottom" id="pager-bottom"></div>
+    </main>
+  </div>
+
+  <!-- detail drawer -->
+  <div class="drawer-scrim" id="scrim"></div>
+  <section class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-inner" id="drawer-inner"></div>
+  </section>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

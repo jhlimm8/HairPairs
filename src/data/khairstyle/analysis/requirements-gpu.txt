@@ -1,0 +1,12 @@
+# CUDA GPU environment for the [HairPairs] baseline re-run (Linux + NVIDIA).
+# Versions match the local .venv-baselines; on Linux these torch wheels ship with CUDA.
+torch==2.8.0
+timm==1.0.27
+open_clip_torch==3.3.0
+scikit-learn==1.6.1
+matplotlib==3.9.4
+numpy==2.0.2
+pillow==11.3.0
+
+# If pip resolves a CPU-only torch on the pod, force the CUDA build explicitly, e.g.:
+#   pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cu124

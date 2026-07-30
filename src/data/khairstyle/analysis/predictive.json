@@ -1,0 +1,474 @@
+{
+  "n": 4347,
+  "A_to_C": [
+    {
+      "name": "ALL_21",
+      "n_attrs": 21,
+      "n_groups": 4002,
+      "majority_accuracy": 0.9795261099608926,
+      "H_C_given_S": 0.045941246124387936,
+      "frac_in_style_pure_group": 0.9512307338394295
+    },
+    {
+      "name": "VISUAL_17",
+      "n_attrs": 17,
+      "n_groups": 3529,
+      "majority_accuracy": 0.9135035656774787,
+      "H_C_given_S": 0.2164364624471409,
+      "frac_in_style_pure_group": 0.8157349896480331
+    },
+    {
+      "name": "shape+color_15",
+      "n_attrs": 15,
+      "n_groups": 3241,
+      "majority_accuracy": 0.8799171842650103,
+      "H_C_given_S": 0.3138011139451645,
+      "frac_in_style_pure_group": 0.7379802162410858
+    },
+    {
+      "name": "shape_8",
+      "n_attrs": 8,
+      "n_groups": 1910,
+      "majority_accuracy": 0.6880607315389924,
+      "H_C_given_S": 0.9409205037285194,
+      "frac_in_style_pure_group": 0.36783988957902003
+    },
+    {
+      "name": "curl+length+bang+side",
+      "n_attrs": 4,
+      "n_groups": 244,
+      "majority_accuracy": 0.42167011732229126,
+      "H_C_given_S": 2.1131984671009163,
+      "frac_in_style_pure_group": 0.017943409247757072
+    }
+  ],
+  "H_C": 4.450005735023132,
+  "C_to_A": {
+    "length": {
+      "H_attr": 1.9713876546715765,
+      "MI_with_category": 1.252662429261325,
+      "frac_attr_explained_by_C": 0.6354216667091853,
+      "frac_C_explained_by_attr": 0.28149681233047075
+    },
+    "basestyle_type": {
+      "H_attr": 0.8117335697394727,
+      "MI_with_category": 0.8117335697394727,
+      "frac_attr_explained_by_C": 1.0,
+      "frac_C_explained_by_attr": 0.18241180305698038
+    },
+    "curl": {
+      "H_attr": 2.5477229284175995,
+      "MI_with_category": 0.7553541715308949,
+      "frac_attr_explained_by_C": 0.2964820715414483,
+      "frac_C_explained_by_attr": 0.16974229169773608
+    },
+    "bang": {
+      "H_attr": 2.4568351986879886,
+      "MI_with_category": 0.5587763139826345,
+      "frac_attr_explained_by_C": 0.22743744239786007,
+      "frac_C_explained_by_attr": 0.12556754917973828
+    },
+    "side": {
+      "H_attr": 0.9681199772424602,
+      "MI_with_category": 0.6905353375867316,
+      "frac_attr_explained_by_C": 0.7132745463569655,
+      "frac_C_explained_by_attr": 0.1551762803701515
+    },
+    "partition": {
+      "H_attr": 2.661297488793457,
+      "MI_with_category": 0.32964980246772324,
+      "frac_attr_explained_by_C": 0.12386807707738656,
+      "frac_C_explained_by_attr": 0.07407851182600995
+    },
+    "hair_width": {
+      "H_attr": 1.2218309296045151,
+      "MI_with_category": 0.05625706927842078,
+      "frac_attr_explained_by_C": 0.046043251906080156,
+      "frac_C_explained_by_attr": 0.012642021747445758
+    },
+    "natural_curl": {
+      "H_attr": 1.1912911271009008,
+      "MI_with_category": 0.06585743444457659,
+      "frac_attr_explained_by_C": 0.055282401544319196,
+      "frac_C_explained_by_attr": 0.014799404397674163
+    },
+    "color": {
+      "H_attr": 2.5596291018967414,
+      "MI_with_category": 0.17904445928576962,
+      "frac_attr_explained_by_C": 0.06994937631905097,
+      "frac_C_explained_by_attr": 0.040234658098668476
+    },
+    "melanin_color": {
+      "H_attr": 0.04935567688487187,
+      "MI_with_category": 0.005761866756177625,
+      "frac_attr_explained_by_C": 0.11674172293529438,
+      "frac_C_explained_by_attr": 0.0012947998495439407
+    },
+    "black_colorize": {
+      "H_attr": 0.3100133949362491,
+      "MI_with_category": 0.025464404604099045,
+      "frac_attr_explained_by_C": 0.0821396914457052,
+      "frac_C_explained_by_attr": 0.005722330738516829
+    },
+    "decolorize_history": {
+      "H_attr": 0.906492091804784,
+      "MI_with_category": 0.07189526336812957,
+      "frac_attr_explained_by_C": 0.07931151746176783,
+      "frac_C_explained_by_attr": 0.016156218137493218
+    },
+    "water_repellency": {
+      "H_attr": 0.36395465403589233,
+      "MI_with_category": 0.01242173713624517,
+      "frac_attr_explained_by_C": 0.03412990326816969,
+      "frac_C_explained_by_attr": 0.002791398006182704
+    },
+    "patch_test": {
+      "H_attr": 0.19965981838202343,
+      "MI_with_category": 0.013020010220220257,
+      "frac_attr_explained_by_C": 0.06521096896576425,
+      "frac_C_explained_by_attr": 0.002925841222573745
+    },
+    "damage": {
+      "H_attr": 1.6645644479704886,
+      "MI_with_category": 0.18827908189626896,
+      "frac_attr_explained_by_C": 0.11311011846121502,
+      "frac_C_explained_by_attr": 0.04230985151647007
+    },
+    "loss": {
+      "H_attr": 0.5790596710030151,
+      "MI_with_category": 0.11908669030883967,
+      "frac_attr_explained_by_C": 0.20565529991505763,
+      "frac_C_explained_by_attr": 0.026761019513207578
+    },
+    "exceptional": {
+      "H_attr": 1.238294674566062,
+      "MI_with_category": 0.24500227948515452,
+      "frac_attr_explained_by_C": 0.19785458543703352,
+      "frac_C_explained_by_attr": 0.05505662106385598
+    },
+    "sex": {
+      "H_attr": 0.8043698216801666,
+      "MI_with_category": 0.7180320709258377,
+      "frac_attr_explained_by_C": 0.8926641099314409,
+      "frac_C_explained_by_attr": 0.1613553136066026
+    },
+    "age": {
+      "H_attr": 5.153849166610313,
+      "MI_with_category": 0.5988316542514998,
+      "frac_attr_explained_by_C": 0.11619114857514376,
+      "frac_C_explained_by_attr": 0.1345687376397026
+    },
+    "user_satisfied": {
+      "H_attr": 1.6217601795543604,
+      "MI_with_category": 0.1078985924061655,
+      "frac_attr_explained_by_C": 0.06653178057178263,
+      "frac_C_explained_by_attr": 0.024246843449428637
+    },
+    "designer_satisfied": {
+      "H_attr": 1.6107998897029119,
+      "MI_with_category": 0.10748054250626549,
+      "frac_attr_explained_by_C": 0.06672495025194512,
+      "frac_C_explained_by_attr": 0.024152899772770017
+    }
+  },
+  "collision_ladder": {
+    "ALL_21": {
+      "n_attrs": 21,
+      "n_sources_in_collision": 620,
+      "frac_in_collision": 0.14262709914883828,
+      "n_groups": 275,
+      "intra_groups": 187,
+      "cross_groups": 88,
+      "sources_in_cross_groups": 212,
+      "groups_all_members_multiview": 261,
+      "size_hist": {
+        "2": 229,
+        "3": 31,
+        "4": 10,
+        "5": 3,
+        "7": 2
+      }
+    },
+    "VISUAL_17": {
+      "n_attrs": 17,
+      "n_sources_in_collision": 1339,
+      "frac_in_collision": 0.3080285254198298,
+      "n_groups": 521,
+      "intra_groups": 243,
+      "cross_groups": 278,
+      "sources_in_cross_groups": 801,
+      "groups_all_members_multiview": 481,
+      "size_hist": {
+        "2": 372,
+        "3": 84,
+        "4": 30,
+        "5": 17,
+        "6": 7,
+        "7": 7,
+        "8": 1,
+        "9": 1,
+        "13": 1,
+        "17": 1
+      }
+    },
+    "shape+color_15": {
+      "n_attrs": 15,
+      "n_sources_in_collision": 1700,
+      "frac_in_collision": 0.3910743041177824,
+      "n_groups": 594,
+      "intra_groups": 247,
+      "cross_groups": 347,
+      "sources_in_cross_groups": 1139,
+      "groups_all_members_multiview": 552,
+      "size_hist": {
+        "2": 380,
+        "3": 103,
+        "4": 46,
+        "5": 25,
+        "6": 13,
+        "7": 11,
+        "8": 3,
+        "9": 7,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "21": 1
+      }
+    },
+    "shape_8": {
+      "n_attrs": 8,
+      "n_sources_in_collision": 3160,
+      "frac_in_collision": 0.726938118242466,
+      "n_groups": 723,
+      "intra_groups": 169,
+      "cross_groups": 554,
+      "sources_in_cross_groups": 2748,
+      "groups_all_members_multiview": 632,
+      "size_hist": {
+        "2": 332,
+        "3": 145,
+        "4": 71,
+        "5": 44,
+        "6": 26,
+        "7": 26,
+        "8": 13,
+        "9": 8,
+        "10": 10,
+        "11": 7,
+        "12": 8,
+        "13": 5,
+        "14": 1,
+        "15": 4,
+        "16": 1,
+        "18": 2,
+        "19": 4,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 2,
+        "24": 3,
+        "27": 1,
+        "28": 1,
+        "30": 1,
+        "36": 1,
+        "40": 1,
+        "44": 1,
+        "54": 1,
+        "63": 1
+      }
+    },
+    "VISUAL_minus_chem_11": {
+      "n_attrs": 12,
+      "n_sources_in_collision": 1491,
+      "frac_in_collision": 0.34299516908212563,
+      "n_groups": 566,
+      "intra_groups": 247,
+      "cross_groups": 319,
+      "sources_in_cross_groups": 942,
+      "groups_all_members_multiview": 518,
+      "size_hist": {
+        "2": 386,
+        "3": 103,
+        "4": 40,
+        "5": 15,
+        "6": 7,
+        "7": 8,
+        "8": 3,
+        "9": 2,
+        "17": 1,
+        "18": 1
+      }
+    }
+  },
+  "hamming1": {
+    "ALL_21": {
+      "name": "ALL_21",
+      "n_attrs": 21,
+      "total_hamming1_pairs": 1910,
+      "cross_style_pairs": 1060,
+      "by_attribute": {
+        "length": {
+          "hamming1_pairs": 16,
+          "cross_style": 13
+        },
+        "basestyle_type": {
+          "hamming1_pairs": 0,
+          "cross_style": 0
+        },
+        "curl": {
+          "hamming1_pairs": 537,
+          "cross_style": 380
+        },
+        "bang": {
+          "hamming1_pairs": 136,
+          "cross_style": 55
+        },
+        "side": {
+          "hamming1_pairs": 15,
+          "cross_style": 14
+        },
+        "partition": {
+          "hamming1_pairs": 262,
+          "cross_style": 91
+        },
+        "hair_width": {
+          "hamming1_pairs": 20,
+          "cross_style": 13
+        },
+        "natural_curl": {
+          "hamming1_pairs": 35,
+          "cross_style": 18
+        },
+        "color": {
+          "hamming1_pairs": 61,
+          "cross_style": 44
+        },
+        "melanin_color": {
+          "hamming1_pairs": 0,
+          "cross_style": 0
+        },
+        "black_colorize": {
+          "hamming1_pairs": 2,
+          "cross_style": 0
+        },
+        "decolorize_history": {
+          "hamming1_pairs": 0,
+          "cross_style": 0
+        },
+        "water_repellency": {
+          "hamming1_pairs": 6,
+          "cross_style": 2
+        },
+        "patch_test": {
+          "hamming1_pairs": 0,
+          "cross_style": 0
+        },
+        "damage": {
+          "hamming1_pairs": 40,
+          "cross_style": 17
+        },
+        "loss": {
+          "hamming1_pairs": 7,
+          "cross_style": 7
+        },
+        "exceptional": {
+          "hamming1_pairs": 359,
+          "cross_style": 140
+        },
+        "sex": {
+          "hamming1_pairs": 0,
+          "cross_style": 0
+        },
+        "age": {
+          "hamming1_pairs": 375,
+          "cross_style": 245
+        },
+        "user_satisfied": {
+          "hamming1_pairs": 19,
+          "cross_style": 13
+        },
+        "designer_satisfied": {
+          "hamming1_pairs": 20,
+          "cross_style": 8
+        }
+      }
+    },
+    "VISUAL_17": {
+      "name": "VISUAL_17",
+      "n_attrs": 17,
+      "total_hamming1_pairs": 12309,
+      "cross_style_pairs": 8907,
+      "by_attribute": {
+        "length": {
+          "hamming1_pairs": 381,
+          "cross_style": 326
+        },
+        "basestyle_type": {
+          "hamming1_pairs": 6,
+          "cross_style": 6
+        },
+        "curl": {
+          "hamming1_pairs": 3081,
+          "cross_style": 2444
+        },
+        "bang": {
+          "hamming1_pairs": 1242,
+          "cross_style": 879
+        },
+        "side": {
+          "hamming1_pairs": 366,
+          "cross_style": 325
+        },
+        "partition": {
+          "hamming1_pairs": 1718,
+          "cross_style": 1112
+        },
+        "hair_width": {
+          "hamming1_pairs": 673,
+          "cross_style": 515
+        },
+        "natural_curl": {
+          "hamming1_pairs": 785,
+          "cross_style": 570
+        },
+        "color": {
+          "hamming1_pairs": 1701,
+          "cross_style": 1177
+        },
+        "melanin_color": {
+          "hamming1_pairs": 3,
+          "cross_style": 1
+        },
+        "black_colorize": {
+          "hamming1_pairs": 48,
+          "cross_style": 34
+        },
+        "decolorize_history": {
+          "hamming1_pairs": 22,
+          "cross_style": 14
+        },
+        "water_repellency": {
+          "hamming1_pairs": 161,
+          "cross_style": 119
+        },
+        "patch_test": {
+          "hamming1_pairs": 33,
+          "cross_style": 21
+        },
+        "damage": {
+          "hamming1_pairs": 1127,
+          "cross_style": 789
+        },
+        "loss": {
+          "hamming1_pairs": 176,
+          "cross_style": 133
+        },
+        "exceptional": {
+          "hamming1_pairs": 786,
+          "cross_style": 442
+        }
+      }
+    }
+  }
+}
