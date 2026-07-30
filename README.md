@@ -36,6 +36,12 @@ Reliability, on a 50-item triple-annotated subset: raw agreement 93% on splits, 
 merges. Chance-corrected coefficients read low (Fleiss $\kappa$ 0.17–0.27) only through the
 prevalence paradox — with ~96% "different" verdicts, chance agreement is already high.
 
+**The labels are in
+[`hairpairs_labels.json`](src/data/khairstyle/analysis/hairpairs_labels.json)** — every pair
+as two K-Hairstyle `source` ids plus a same/different verdict and its regime, with the
+per-rater verdicts of the reliability subset alongside. It holds no imagery and no
+K-Hairstyle attribute values, and `analysis/export_labels.py` regenerates it from the index.
+
 ## Verification baselines
 
 Each source is the mean of its three canonical view embeddings; pairs are scored by cosine.
@@ -62,11 +68,11 @@ Full numbers: [`baselines.json`](src/data/khairstyle/analysis/baselines.json),
 
 ## What is and isn't in this repo
 
-Everything here is either source code or a small derived result. Three things are
+Everything here is source code, the pair labels, or a small derived result. Three things are
 deliberately absent, all reconstructible with the steps below:
 
-- **K-Hairstyle imagery** — redistributed by its authors only, under their terms. Fetch it
-  with `khairstyle_dl.py`.
+- **K-Hairstyle imagery** — not redistributed here; fetch it from its authors with
+  `khairstyle_dl.py`.
 - **`data/index.sqlite`** (~390 MB) — the derived image/label index, rebuilt by
   `build_index.py`.
 - **`analysis/emb_cache/*.npz`** (~68 MB) and `train_manifest.json` — embedding caches and
@@ -137,6 +143,9 @@ conclusions drawn from them are scoped to that setting.
 
 ## License
 
-A code license for this repository has not been chosen yet; until one is added, no rights
-are granted beyond viewing. The underlying K-Hairstyle imagery will not be covered by it in
-any case, and remains subject to the terms set by its authors (Kim et al., ICIP 2021).
+Code and pair labels in this repository are released under the [MIT License](LICENSE).
+
+This does **not** extend to the underlying K-Hairstyle imagery, which is not redistributed
+here. K-Hairstyle publishes no licence or data-use agreement, so its terms are unsettled;
+obtain the images from its authors (Kim et al., ICIP 2021) and satisfy yourself of the terms
+before using them.
